@@ -1,0 +1,2365 @@
+This is cmdstanr version 0.4.0.9001
+- CmdStanR documentation and vignettes: mc-stan.org/cmdstanr
+- CmdStan path: /work/pathfinder/cmdstan
+- CmdStan version: 2.28.1
+CmdStan path set to: /work/pathfinder/cmdstan
+Path: [1] Initial log joint probability = -8606.476142 
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        1      -6246.29       2.15543       597.632       0.001       0.001        2    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        2      -5915.36      0.625574       522.588           1           1        3    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        3      -4996.27       5.56332        859.69           1           1        4    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        4      -4434.55       1.31154       296.861      0.7327      0.7327        5    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        5      -4314.93      0.602682       234.475      0.8267      0.8267        6    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        6      -3955.26       3.78238       303.205           1           1        7    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        7      -3807.13       2.76313       414.478           1           1        8    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        8      -3640.96       1.33936       277.725        0.78        0.78        9    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        9      -3518.09        2.8035       351.505           1           1       10    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       10      -3449.15      0.559588       159.293      0.7789      0.7789       11    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       11      -3410.16      0.674498       141.598           1           1       12    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       12      -3319.71       1.80056       184.011           1           1       13    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       13       -3210.2         2.517       234.992           1           1       14    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       14       -3139.3       5.67792       479.369           1           1       15    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       15      -3030.82      0.915809       223.497      0.6547      0.6547       16    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       16      -2973.61      0.894392       146.767           1           1       17    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       17      -2922.59       0.85529       147.451           1           1       18    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       18      -2863.55        1.3802       209.627           1           1       19    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       19       -2746.6       3.77136        274.48           1           1       20    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       20      -2641.16        2.9067        223.78           1           1       21    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       21      -2539.35       4.12871       189.561           1           1       22    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       22      -2499.14      0.424421       157.591      0.9248      0.9248       23    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       23      -2406.06        2.2438       204.085           1           1       24    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       24      -2346.16        3.5753       249.271           1           1       25    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       25      -2298.65      0.699203       145.506      0.8761      0.8761       26    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       26      -2259.46       1.19329       119.301           1           1       27    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       27       -2217.3       1.36834       147.823           1           1       28    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       28      -2152.09       2.27081       161.942           1           1       29    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       29      -2098.43       3.57191       338.653           1           1       30    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       30      -2044.54      0.580136        141.92      0.8254      0.8254       31    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       31      -1997.14       0.75841       270.763           1           1       32    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       32      -1947.15      0.818222       268.216           1           1       33    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       33      -1822.85       3.60743       570.405           1           1       34    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       34      -1748.77       1.81248       1097.92      0.9453      0.9453       35    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       35      -1643.09       1.08436       398.874      0.7567      0.7567       36    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       36      -1602.26       1.53998       492.217      0.8249      0.8249       37    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       37      -1560.91       1.36829       360.941      0.3999           1       39    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       38       -1518.1      0.289121       447.239      0.3977      0.3977       40    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       39      -1382.18       2.39274       329.737           1           1       41    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       40      -1364.42      0.607182       573.615      0.2278       0.816       43    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       41      -1357.84      0.110662       448.059      0.2253      0.2253       44    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       42      -1334.24      0.383256       239.512           1           1       45    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       43      -1309.23      0.218061        236.71           1           1       46    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       44      -1259.21       0.80911       1285.79           1           1       47    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       45      -1219.38      0.365823       641.776           1           1       48    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       46      -1197.39      0.495226       478.088           1           1       49    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       47      -1179.57      0.163331       528.211           1           1       50    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       48      -1134.03      0.727857       347.371           1           1       51    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       49      -1115.59      0.256102       288.789      0.8593      0.8593       52    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       50       -1106.5      0.183997       1127.26     0.08891           1       54    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       51      -1064.05      0.421167       670.688      0.8422     0.08422       56    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       52      -1029.94      0.751751       747.776           1           1       57    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       53      -1022.16       0.11172        253.83      0.8445      0.8445       58    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       54      -1019.24      0.108929       239.764      0.8996      0.8996       59    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       55      -993.086      0.314188       377.759      0.4611           1       61    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       56      -992.035     0.0509287       181.277     0.05574      0.4655       63    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       57      -991.535     0.0268371       205.537      0.5607     0.05607       65    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       58      -986.841     0.0944024       233.023           1           1       66    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       59       -984.22      0.078367       313.202      0.2111           1       68    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       60      -982.684     0.0202583       285.151      0.2126      0.2126       69    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       61      -974.116      0.260341        283.59           1           1       70    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       62      -973.249     0.0224684       199.257      0.4184      0.8867       72    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       63        -972.9      0.012581       192.458      0.4226      0.4226       73    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       64      -968.975      0.227441       284.438           1           1       74    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       65      -967.007     0.0523617       327.205      0.7075      0.7075       75    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       66      -966.114     0.0336912       233.841      0.5978      0.5978       76    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       67      -964.649     0.0684987       97.7966           1           1       77    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       68      -963.685     0.0512588       183.611           1           1       78    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       69      -962.781     0.0761943       146.434           1           1       79    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       70       -962.28     0.0468713        352.96      0.2141           1       81    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       71      -962.055     0.0071418       301.719      0.2162      0.2162       82    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       72      -960.924     0.0508753       159.703           1           1       83    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       73      -960.605     0.0144404       213.144           1           1       84    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       74      -959.251      0.054048       297.248           1           1       85    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       75      -956.376     0.0918253       331.109           1           1       86    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       76      -949.047      0.272547       790.904           1           1       87    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       77      -946.202      0.185673       118.128           1           1       88    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       78      -945.352      0.038499       156.311      0.8468      0.8468       89    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       79       -944.01     0.0840425       141.793           1           1       90    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       80      -940.669      0.571161       1504.94           1           1       91    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       81      -934.291     0.0636173       1026.11      0.6203      0.6203       92    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       82      -924.499      0.160522        115.22           1           1       93    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       83      -922.603      0.197988       275.033           1           1       94    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       84      -921.059      0.124796       283.135           1           1       95    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       85      -918.906      0.353293       397.179     0.08029           1       97    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       86      -915.287     0.0734298        162.37      0.7818     0.07818       99    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       87      -912.697     0.0677694       318.926           1           1      100    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       88      -912.019      0.086055       559.312           1           1      101    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       89       -910.93       0.02283        301.94      0.5753      0.5753      102    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       90      -910.321     0.0246107       128.947           1           1      103    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       91       -909.96    0.00873455       147.997           1           1      104    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       92      -908.562     0.0363538       306.272           1           1      105    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       93      -907.487     0.0381231       303.764           1           1      106    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       94       -906.17     0.0730747       81.2483           1           1      107    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       95      -905.193     0.0384801       105.545       0.959       0.959      108    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       96       -903.61      0.106854       286.551           1           1      109    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       97      -902.793     0.0297039       94.2839      0.8619      0.8619      110    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       98      -902.635      0.015722       72.0989      0.8562      0.8562      111    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]       99      -902.263     0.0255932       67.9364           1           1      112    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      100      -901.497     0.0477076       99.0307           1           1      113    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      101      -900.494     0.0553777        95.975           1           1      114    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      102      -900.206     0.0279014       252.127      0.1328           1      116    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      103      -899.989    0.00879583       214.942      0.1341      0.1341      117    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      104      -898.718     0.0761206       90.9213           1           1      118    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      105      -898.379     0.0155369       90.1081           1           1      119    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      106      -897.541     0.0500774       232.007       0.441           1      121    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      107       -897.18     0.0191615       122.496      0.4453      0.4453      122    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      108      -896.971     0.0210995       57.3749      0.9607      0.9607      123    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      109      -896.874    0.00821573          62.6           1           1      124    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      110      -896.155     0.0529763       144.933           1           1      125    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      111          -895      0.090684       127.792           1           1      126    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      112      -894.774     0.0194562       359.678     0.02131           1      128    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      113      -894.355     0.0241205         328.6      0.2051     0.02051      130    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      114      -891.614      0.206325       82.3044           1           1      131    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      115      -890.777      0.065381        135.42           1           1      132    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      116      -889.035      0.143206       272.715           1           1      133    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      117      -886.061      0.248897       389.444           1           1      134    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      118      -880.995      0.511583        191.46           1           1      135    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      119      -878.244      0.274885       727.195      0.2914           1      137    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      120      -876.651     0.0710025       596.334      0.2942      0.2942      138    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      121       -871.65      0.242068       163.576           1           1      139    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      122      -871.249    0.00944513       149.649           1           1      140    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      123      -867.549      0.270812       135.745           1           1      141    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      124      -863.889      0.317087       101.239           1           1      142    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      125      -862.616     0.0632569       342.073      0.4548           1      144    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      126      -861.181      0.126253       102.439      0.4593      0.4593      145    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      127      -859.885      0.169291       133.275      0.9898      0.9898      146    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      128      -859.239      0.161031       90.2897           1           1      147    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      129      -858.529      0.116963       118.495           1           1      148    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      130      -857.794      0.106866       129.263           1           1      149    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      131      -857.155     0.0446101         133.4           1           1      150    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      132      -855.964     0.0708471       427.968           1           1      151    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      133      -853.994     0.0850633       272.353           1           1      152    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      134      -851.281       0.12048       87.8135           1           1      153    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      135      -850.456     0.0421253        83.526           1           1      154    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      136      -849.714      0.108418        137.09           1           1      155    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      137      -848.983      0.087985        115.17           1           1      156    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      138      -848.406      0.364494       598.295           1           1      157    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      139      -847.043      0.017644       336.502      0.6309      0.6309      158    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      140      -845.411     0.0619904       111.737           1           1      159    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      141      -844.947     0.0634896       137.701           1           1      160    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      142      -843.147      0.144835       167.387           1           1      161    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      143       -841.35      0.570324       284.742      0.3224           1      163    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      144      -839.401      0.155915       115.609       0.324       0.324      164    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      145      -837.667      0.132195       101.126      0.6761      0.6761      165    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      146      -837.117     0.0937514       360.298      0.1319           1      167    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      147      -835.657      0.150264       254.638       1.332      0.1332      169    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      148      -833.664      0.145906       150.728           1           1      170    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      149      -831.511      0.110882       103.714           1           1      171    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      150      -830.232     0.0388846       111.764           1           1      172    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      151      -827.676     0.0760258       85.9585           1           1      173    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      152      -827.522     0.0243713           247     0.06836           1      175    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      153      -826.512     0.0410963       170.796      0.6903     0.06903      177    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      154      -825.439     0.0705243       64.9872           1           1      178    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      155      -825.115     0.0165862       81.6105           1           1      179    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      156      -824.271     0.0819085       87.9672           1           1      180    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      157       -823.44     0.0680564       169.931      0.4832           1      182    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      158      -823.327     0.0111325       64.0924      0.1009       0.488      184    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      159      -822.741     0.0662673       75.4321       1.019      0.1019      186    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      160      -820.198      0.333048       155.616           1           1      187    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      161      -816.405      0.265563       115.197           1           1      188    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      162      -813.525      0.138152       111.294           1           1      189    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      163      -806.108      0.584879       107.215           1           1      190    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      164      -805.753     0.0466227       305.122     0.04748           1      192    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      165      -804.701     0.0554243       265.019       0.478      0.0478      194    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      166      -803.219      0.228778       79.6951      0.3062           1      196    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      167      -802.842     0.0108186        79.055      0.3089      0.3089      197    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      168      -799.759      0.192853       79.8205           1           1      198    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      169      -797.566      0.204963       206.999      0.3128           1      200    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      170      -796.202      0.136985       187.743      0.3159      0.3159      201    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      171       -794.06      0.195721       175.979      0.6201      0.6201      202    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      172      -793.752     0.0601963       114.598      0.0466           1      204    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      173      -792.829      0.110823       85.2786      0.4693     0.04693      206    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      174      -790.518      0.185889       56.8751           1           1      207    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      175      -788.155      0.156353       91.3806           1           1      208    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      176      -787.843     0.0258303       142.832      0.1995           1      210    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      177      -787.548     0.0120058       134.434      0.2015      0.2015      211    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      178      -787.293     0.0185989       111.178      0.0976           1      213    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      179      -786.135     0.0683901       82.2296      0.9857     0.09857      215    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      180      -784.195     0.0667333       55.7607           1           1      216    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      181      -781.688      0.130773       72.5055           1           1      217    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      182      -781.616    0.00713824       45.4865     0.07917           1      219    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      183      -781.518     0.0115527       42.4457      0.7995     0.07995      221    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      184      -781.434    0.00946735       109.474      0.2268           1      223    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      185      -781.377    0.00420667       106.473      0.2291      0.2291      224    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      186      -780.484     0.0801589       42.6364           1           1      225    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      187      -780.224     0.0141465       35.5458      0.9356      0.9356      226    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      188      -779.799     0.0511834       181.164      0.4883           1      228    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      189        -779.3     0.0312585       101.983      0.4932      0.4932      229    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      190      -778.911     0.0461893       53.7913           1           1      230    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      191      -778.766     0.0214356       53.7151           1           1      231    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      192      -778.544      0.047138       145.014           1           1      232    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      193      -778.346     0.0103277       73.5409      0.8874      0.8874      233    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      194      -778.083     0.0222061       89.2511           1           1      234    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      195      -777.939     0.0125756       85.4599           1           1      235    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      196      -777.651     0.0639327       202.202      0.1797           1      237    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      197       -776.66     0.0587163       89.8411       1.815      0.1815      239    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      198      -776.128     0.0408522       81.3814           1           1      240    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      199      -775.761     0.0896037       90.6073           1           1      241    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      200      -775.435     0.0241586       131.088      0.9254      0.9254      242    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      201      -774.922      0.041542       195.877           1           1      243    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      202      -773.536      0.170857       203.771           1           1      244    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      203      -773.118       0.10107       414.384      0.3337           1      246    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      204      -772.775     0.0266737       351.135       0.337       0.337      247    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      205      -771.456      0.144983       86.9078           1           1      248    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      206      -771.195      0.025745       161.812           1           1      249    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      207      -770.546     0.0548779       284.248           1           1      250    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      208      -769.314     0.0907365        368.21           1           1      251    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      209      -767.089      0.160896       392.679           1           1      252    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      210      -766.669      0.137366       200.471     0.05468           1      254    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      211        -765.1      0.113559       174.145       0.535      0.0535      256    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      212      -759.787      0.742736       369.976           1           1      257    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      213      -756.468      0.179376       185.607      0.4062           1      259    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      214      -755.316       0.15331       140.902      0.4101      0.4101      260    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      215       -752.83      0.402236       94.0035           1           1      261    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      216      -752.226     0.0582225       512.591           1           1      262    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      217      -751.159      0.061143       340.679       0.694       0.694      263    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      218      -749.476     0.0951735       91.3516           1           1      264    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      219      -749.228     0.0149666       114.342           1           1      265    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      220      -748.938     0.0248399         90.13       0.398           1      267    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      221      -748.399     0.0219373       103.459       0.402       0.402      268    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      222       -748.09      0.139628        259.07       0.621       0.621      269    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      223       -747.89    0.00405277       198.271      0.4538      0.4538      270    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      224      -747.374     0.0888031       84.7043           1           1      271    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      225      -747.161     0.0837592       110.568           1           1      272    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      226      -746.693      0.120367       122.616           1           1      273    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      227      -746.048      0.222108        208.14      0.3812           1      275    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      228      -745.217      0.233617       177.118      0.3848      0.3848      276    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      229      -742.801      0.095784        69.716       3.912      0.3912      278    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      230      -742.185      0.114624       233.846           1           1      279    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      231      -741.663     0.0940765       71.7981      0.7139      0.7139      280    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      232      -741.437     0.0174536       86.8486      0.9136      0.9136      281    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      233      -740.868     0.0478767       137.021           1           1      282    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      234       -740.01     0.0431979       237.307           1           1      283    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      235      -739.308      0.148762       173.871      0.5246           1      285    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      236      -738.723     0.0249014       153.036      0.5298      0.5298      286    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      237      -735.509      0.485746       331.709           1           1      287    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      238      -732.282      0.386165       225.653           1           1      288    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      239        -727.2       1.05733       418.582           1           1      289    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      240      -722.893       0.82447       465.321           1           1      290    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      241      -720.248     0.0716373       344.155      0.7923      0.7923      291    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      242      -717.053      0.362541       1098.75           1           1      292    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      243      -713.179     0.0688783       567.892      0.6866      0.6866      293    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      244      -710.561      0.354691       195.371           1           1      294    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      245      -709.942      0.025824       247.126           1           1      295    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      246        -707.8     0.0642345       288.453           1           1      296    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      247      -702.344      0.169463       434.395           1           1      297    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      248       -695.03      0.444006       288.428           1           1      298    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      249      -693.757       0.55133       269.949      0.2234           1      300    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      250      -693.257     0.0608462       240.765       0.197       0.197      301    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      251      -690.629      0.382846       226.364           1           1      302    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      252      -689.486      0.448096       355.046      0.4009      0.9382      304    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      253      -688.782     0.0216569       344.367      0.4043      0.4043      305    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      254      -683.885      0.331315       171.302           1           1      306    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      255      -681.533     0.0961194       180.939           1           1      307    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      256      -680.423      0.487564        476.84      0.1936           1      309    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      257       -676.58      0.256519        247.38       1.576      0.1576      311    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      258      -674.574      0.499596       404.886           1           1      312    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      259      -672.074      0.038851       324.586           1           1      313    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      260      -668.943     0.0738907       193.842           1           1      314    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      261      -666.193      0.164141        241.42           1           1      315    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      262       -660.87      0.178063       386.572           1           1      316    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      263        -653.1       1.29416       1129.29           1           1      317    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      264      -644.792      0.548847       580.778      0.9271      0.9271      318    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      265      -633.612      0.194957       676.479           1           1      319    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      266      -616.214      0.467575       988.604           1           1      320    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      267      -594.651      0.483804       1167.08           1           1      321    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      268      -583.061      0.530977       957.052      0.4426       0.855      323    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      269      -573.349      0.141253       754.952      0.4473      0.4473      324    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      270      -549.758     0.0909928       882.021           1           1      325    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      271      -517.199      0.198925       1240.11           1           1      326    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      272      -490.289      0.412957       2277.48           1           1      327    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      273      -460.983      0.144605       1035.89      0.7235      0.7235      328    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      274      -439.656      0.221764        926.11           1           1      329    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      275      -424.588      0.150145       1156.24           1           1      330    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      276      -359.985      0.751547       1481.43           1           1      331    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      277       -346.22      0.278002       1732.68      0.2829           1      333    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      278      -334.607     0.0935242       1354.52      0.2912      0.2912      334    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      279      -305.106      0.336016       761.926           1           1      335    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      280      -296.656      0.104234        764.64           1           1      336    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      281      -282.578      0.213668       753.982           1           1      337    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      282      -269.266      0.391674       864.517           1           1      338    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      283      -248.378      0.391546       1478.19      0.8494      0.8494      339    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      284       -228.25     0.0681313       963.663      0.7441      0.7441      340    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      285      -201.961      0.158311       840.068           1           1      341    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      286      -186.689      0.193305       855.677           1           1      342    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      287      -171.535      0.177605       858.931           1           1      343    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      288      -145.752      0.240861       949.436           1           1      344    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      289      -128.997      0.505953       3111.24           1           1      345    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      290      -93.3865      0.054281       1044.37      0.6166      0.6166      346    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      291      -85.3247      0.107734       508.493      0.8314      0.8314      347    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      292       -80.354     0.0295167       515.527           1           1      348    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      293      -66.6333     0.0617407       961.908           1           1      349    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      294      -39.8274      0.123377       1536.49           1           1      350    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      295       13.8357       0.36395       2108.84           1           1      351    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      296       33.7678      0.211822       2967.74      0.2849           1      353    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      297       48.6751     0.0845323       2465.91      0.2797      0.2797      354    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      298       83.4132      0.317937       1222.98           1           1      355    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      299       90.9704     0.0687476       824.102      0.8984      0.8984      356    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      300        105.18     0.0620931       729.898           1           1      357    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      301       116.949     0.0994863       752.657           1           1      358    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      302       124.302     0.0402429       988.976      0.4003           1      360    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      303        130.35     0.0400455       942.814      0.4043      0.4043      361    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      304       166.369      0.316517       2040.61       0.556           1      363    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      305        193.11      0.134192       1078.05       0.563       0.563      364    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      306       217.082      0.097894       1166.94      0.8542      0.8542      365    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      307       233.422       0.13878       2513.18           1           1      366    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      308        247.53     0.0333917        1273.8      0.8583      0.8583      367    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      309       265.797     0.0594819       1889.22           1           1      368    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      310       281.938     0.0700134       2540.76           1           1      369    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      311       316.085      0.161072        2615.8           1           1      370    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      312       348.588      0.121592        1957.4           1           1      371    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      313       387.224      0.222213       2153.59           1           1      372    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      314       397.679     0.0261233       1046.09      0.8627      0.8627      373    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      315       400.878     0.0283754       758.185      0.9448      0.9448      374    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      316       407.905      0.026507       955.345           1           1      375    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      317       421.755     0.0510188          1159           1           1      376    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      318       454.178      0.162289       1599.82           1           1      377    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      319       492.042      0.158658       1876.36           1           1      378    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      320       548.572      0.326409       4548.53           1           1      379    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      321       575.707     0.0710111       2735.17      0.4554      0.9058      381    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      322       588.327     0.0415459       1869.17      0.4599      0.4599      382    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      323       603.724     0.0424535       855.405           1           1      383    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      324       610.866     0.0272663       630.134           1           1      384    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      325       619.484     0.0512854       796.755           1           1      385    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      326       635.305      0.102536       1377.94           1           1      386    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      327       641.631      0.052519        2965.8      0.2307           1      388    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      328       649.625     0.0404951       2705.84      0.2311      0.2311      389    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      329       701.261      0.378905       2366.64           1           1      390    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      330       714.918     0.0290081       1124.33           1           1      391    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      331       724.033     0.0246695       1665.19           1           1      392    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      332       747.936     0.0715254       2554.37           1           1      393    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      333       754.257     0.0358177       2905.24      0.1745           1      395    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      334       757.298     0.0103491       2615.47      0.1755      0.1755      396    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      335       771.486     0.0532763       866.694           1           1      397    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      336       774.622     0.0116059       875.633           1           1      398    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      337       784.139     0.0287597       1115.24           1           1      399    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      338       801.828     0.0523263        2534.4           1           1      400    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      339       805.464     0.0228832       2045.69      0.1864           1      402    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      340       833.764      0.104764       1763.61       1.879      0.1879      404    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      341       889.934      0.568318       11991.4           1           1      405    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      342       960.041      0.155828       5590.82       0.798       0.798      406    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      343       999.951      0.370284       6771.09           1           1      407    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      344       1034.24     0.0195481       4572.62      0.7981      0.7981      408    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      345       1100.71      0.374793       7991.64      0.5935           1      410    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      346       1114.49      0.108693       5919.38      0.2324      0.6044      412    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      347        1116.8     0.0161846        5431.4      0.2336      0.2336      413    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      348       1135.63      0.133643       4123.61           1           1      414    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      349       1150.53      0.127055       7135.69           1           1      415    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      350       1178.83       0.25135       9488.25           1           1      416    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      351          1194      0.218146       20445.9      0.4632           1      418    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      352       1207.46      0.161702       4981.78      0.4664      0.4664      419    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      353       1209.63     0.0165148        4406.1      0.4934      0.4934      420    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      354       1219.06     0.0242959       3978.01           1           1      421    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      355       1250.47      0.148232       3059.76           1           1      422    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      356       1319.07      0.426778       8417.88           1           1      423    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      357       1341.25     0.0888758       16274.8      0.3627           1      425    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      358        1358.9     0.0550552       12891.1      0.3653      0.3653      426    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      359       1376.74     0.0932719       16617.3      0.4733      0.4733      427    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      360       1443.74       0.57461       16238.7      0.5078           1      429    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      361       1467.99      0.360543       33144.6      0.1588      0.5101      431    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      362       1500.31      0.142043       28042.7       1.294      0.1294      433    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      363       1512.33     0.0683135       9437.68           1           1      434    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      364       1529.05      0.283504       26678.7           1           1      435    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      365       1548.57      0.324902       60912.1           1           1      436    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      366       1559.66      0.360691       20415.6           1           1      437    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      367       1566.99      0.156127       11798.1      0.6946      0.6946      438    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      368       1576.03      0.087804       10192.2      0.8226      0.8226      439    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      369       1585.08      0.188054       23059.4      0.3739           1      441    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      370        1586.6     0.0362689        8857.9      0.3706      0.3706      442    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      371       1587.34     0.0310266       7083.32      0.7141      0.7141      443    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      372       1587.93     0.0232854       9656.31           1           1      444    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      373       1589.62      0.047212       19834.1           1           1      445    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      374       1592.28     0.0647167       18348.6           1           1      446    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      375       1598.16     0.0577386       24227.4           1           1      447    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      376       1613.46      0.272816       64742.2           1           1      448    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      377       1629.87     0.0324287       59971.7      0.8229      0.8229      449    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      378       1641.39     0.0758183       32177.7      0.7913      0.7913      450    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      379       1649.92     0.0159706       19293.8           1           1      451    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      380       1656.19      0.016542       21999.9           1           1      452    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      381       1667.02     0.0929004         26633           1           1      453    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      382       1670.43      0.081627       49559.8      0.5026           1      455    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      383       1671.74     0.0322547       30411.7      0.5076      0.5076      456    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      384       1672.74    0.00251013       22898.6      0.3313      0.3313      457    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      385       1675.64     0.0136047       12568.3           1           1      458    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      386       1677.03     0.0115755       12122.6           1           1      459    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      387       1703.88      0.242358         28556           1           1      460    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      388       1739.72      0.578052       70761.9           1           1      461    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      389       1749.67     0.0749107        115891      0.3778      0.9745      463    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      390       1760.13     0.0380072       86806.7      0.3807      0.3807      464    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      391       1768.78      0.117789       30128.8      0.8711      0.8711      465    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      392       1770.42     0.0601985       26207.8      0.7963      0.7963      466    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      393       1777.71      0.138455       16946.6      0.4117           1      468    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      394       1787.55     0.0311423       25431.4      0.4139      0.4139      469    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      395       1790.65     0.0190528       15023.3      0.3955      0.3955      470    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      396       1793.28     0.0350512       72727.8      0.3474           1      472    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      397       1794.72    0.00120273       44083.7      0.3506      0.3506      473    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      398       1795.59    0.00325382       9844.15      0.8871      0.8871      474    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      399       1795.68   0.000830004       9498.32           1           1      475    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      400        1795.9    0.00110935         15541           1           1      476    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      401       1796.41   0.000311874       27721.3           1           1      477    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      402       1797.35    0.00244946       32723.9           1           1      478    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      403       1798.07    0.00694014       75993.8      0.4212           1      480    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      404       1798.93    0.00275566       66473.7      0.4254      0.4254      481    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      405       1802.28     0.0168042       27703.9           1           1      482    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      406       1803.61    0.00834942       32919.5           1           1      483    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      407       1806.03     0.0146551       47430.1           1           1      484    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      408       1808.73     0.0158273       41235.9           1           1      485    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      409       1809.54    0.00127214       69498.8           1           1      486    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      410       1810.13     0.0207035       60753.3      0.6785      0.6785      487    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      411       1810.88    0.00441849       41536.8      0.3889      0.3889      488    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      412       1811.62    0.00646638       9144.09           1           1      489    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      413       1811.82   0.000203349        7392.6           1           1      490    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      414       1812.28    0.00266598       19123.7           1           1      491    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      415       1812.72     0.0022276         20654           1           1      492    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      416       1813.44     0.0127828       59539.6      0.3411           1      494    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      417        1814.3    0.00311757       53642.7      0.3445      0.3445      495    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      418       1820.95     0.0323493       30292.7           1           1      496    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      419       1826.69     0.0265114       42223.3           1           1      497    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      420       1833.81      0.093286        176485           1           1      498    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      421       1842.77    0.00435081       95232.1      0.7877      0.7877      499    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      422       1849.57       0.01079         31212           1           1      500    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      423       1852.21     0.0147255       40232.6           1           1      501    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      424       1855.77     0.0133508       28035.9           1           1      502    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      425       1857.68     0.0358133       57409.2      0.2549           1      504    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      426       1858.66    0.00702649       46095.5      0.2567      0.2567      505    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      427       1864.11     0.0551426       48994.7           1           1      506    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      428       1865.66    0.00594401       35642.2           1           1      507    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      429        1867.2    0.00283747       44436.3           1           1      508    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      430       1873.21     0.0126773         67896           1           1      509    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      431       1881.95    0.00851425       46697.9           1           1      510    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      432       1898.65     0.0383372       51910.8           1           1      511    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      433       1902.87     0.0308136        151979      0.1193           1      513    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      434       1924.54     0.0575966        142128       1.178      0.1178      515    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      435       1930.35     0.0309782       54752.3      0.1336           1      517    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      436       1935.51     0.0113708       49210.3      0.1327      0.1327      518    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      437       1976.44      0.188739       66418.3           1           1      519    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      438       2001.86      0.115823       75891.4           1           1      520    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      439       2012.69      0.121932        330700      0.0691           1      523    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      440       2067.49      0.352575        230398      0.6675     0.06675      525    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      441       2078.25      0.113472        187417      0.1992      0.6481      527    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      442       2081.84    0.00748634        186544      0.1979      0.1979      528    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      443       2161.72      0.500382        677159           1           1      529    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      444        2179.2      0.226079        435020      0.9163      0.9163      530    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      445       2192.05     0.0391417        224792      0.6602      0.6602      531    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      446       2197.98       0.22576        235575      0.9623      0.9623      532    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      447       2199.45    0.00102305        105197      0.8038      0.8038      533    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      448       2200.67      0.019239        125278           1           1      534    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      449       2202.69     0.0378085        213204           1           1      535    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      450       2210.59      0.129976        507037           1           1      536    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      451       2225.31      0.178354        864256           1           1      537    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      452       2258.43      0.393763   1.40888e+06           1           1      538    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      453       2290.21      0.169784        492087           1           1      539    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      454       2305.61      0.161316        388680           1           1      540    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      455       2310.79    0.00207851        205402           1           1      541    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      456       2312.06     0.0288218       46217.5           1           1      542    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      457        2312.3    0.00895146       55223.9           1           1      543    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      458       2312.68     0.0103948       75316.5           1           1      544    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      459       2313.19    0.00568826       46695.8           1           1      545    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      460       2313.26    0.00198164       94055.6      0.1272           1      547    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      461       2313.44    0.00230549       23311.9       1.284      0.1284      549    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      462       2313.47    0.00185765       16969.7           1           1      550    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      463       2313.53    0.00155913       16562.7           1           1      551    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      464       2313.63   0.000650965       19013.1           1           1      552    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      465       2313.83    0.00048047       24450.6           1           1      553    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      466       2314.34    0.00234979       50592.2           1           1      554    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      467       2314.49     0.0036143       77984.7      0.1927           1      556    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      468       2314.57   0.000888064       69419.3      0.1946      0.1946      557    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      469       2315.01    0.00876723       16991.6           1           1      558    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      470       2315.05    0.00113515       14131.8           1           1      559    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      471       2315.16    0.00109629       14440.1           1           1      560    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      472       2315.35    0.00266232         23831           1           1      561    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      473       2315.64    0.00740364        113440           1           1      562    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      474       2316.16    0.00533257       55025.8           1           1      563    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      475       2316.89    0.00620118       46527.1           1           1      564    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      476       2318.08     0.0149127       90910.5           1           1      565    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      477       2319.52     0.0164777       99391.3           1           1      566    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      478       2322.77      0.026338        137988           1           1      567    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      479       2330.52     0.0570842        256134           1           1      568    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      480       2331.95     0.0177473        125937      0.1099           1      570    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      481       2336.54     0.0297077       84939.1       1.102      0.1102      572    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      482       2339.03    0.00541622       73851.6           1           1      573    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      483       2343.48     0.0235621        118468           1           1      574    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      484       2351.29    0.00269591         89437           1           1      575    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      485       2359.54     0.0438577       65347.8           1           1      576    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      486       2360.48     0.0250973        894223           1           1      577    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      487       2371.55     0.0259631        443770      0.5252      0.5252      578    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      488       2377.62     0.0193246        100747           1           1      579    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      489       2378.48    0.00625826        124423           1           1      580    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      490       2381.56     0.0202217        135768           1           1      581    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      491       2384.99     0.0214582        223381       0.257           1      583    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      492       2388.54     0.0351701        121519      0.2593      0.2593      584    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      493       2396.29      0.114521       74607.9      0.9879      0.9879      585    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      494       2397.87     0.0397648        200484      0.4346           1      587    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      495       2399.09     0.0175211        137818      0.4389      0.4389      588    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      496       2401.06      0.024552       33698.7           1           1      589    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      497       2401.39    0.00641618       27295.2           1           1      590    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      498        2401.8    0.00218141       37129.1           1           1      591    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      499       2402.08    0.00160148       28134.1           1           1      592    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      500       2402.46     0.0101109       34119.6           1           1      593    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      501       2402.52     0.0039322       22364.1     0.02629           1      595    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      502       2402.53    0.00043875       20656.7      0.2629     0.02629      597    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      503       2402.66   0.000416723       7662.01           1           1      598    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      504       2402.71    0.00109073       7337.89           1           1      599    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      505       2402.73     0.0161046       27019.9           1           1      600    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      506       2402.79    0.00330118       15885.3      0.5947      0.5947      601    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      507       2402.87    0.00206698       19269.9           1           1      602    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      508        2402.9   0.000687133         10776           1           1      603    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      509       2402.92     0.0101499         42604           1           1      604    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      510       2402.95   0.000903552       25520.9      0.6112      0.6112      605    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      511       2402.98   0.000884618       13892.2           1           1      606    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      512          2403    0.00121617       20905.2           1           1      607    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      513       2403.08    0.00501026         43248           1           1      608    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      514        2403.2    0.00562007       55153.4           1           1      609    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      515       2403.43     0.0119949       58940.7           1           1      610    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      516       2403.64     0.0390022        225877           1           1      611    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      517       2404.17    0.00432892        146809      0.6354      0.6354      612    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      518       2404.92     0.0189495       20323.4           1           1      613    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      519       2405.11    0.00981735       35356.8           1           1      614    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      520       2405.28    0.00624406         36153           1           1      615    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      521       2405.46     0.0148026        189248           1           1      616    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      522       2405.72    0.00293649        129555      0.6257      0.6257      617    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      523        2406.1    0.00146347       35882.8           1           1      618    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      524       2406.39      0.004953       39722.6           1           1      619    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      525       2406.76     0.0123766       80397.4           1           1      620    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      526       2407.23    0.00953031        125371           1           1      621    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      527       2407.92     0.0142635        139441           1           1      622    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      528       2410.53    0.00609353       84573.3           1           1      623    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      529       2416.55      0.103663        203445           1           1      624    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      530       2418.23     0.0315812        116401      0.3074           1      626    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      531       2419.14     0.0197452        109097      0.3101      0.3101      627    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      532       2424.49      0.157996       63716.1           1           1      628    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      533       2426.38     0.0365768       48810.2           1           1      629    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      534       2432.22      0.080504       43529.4           1           1      630    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      535        2450.5      0.508338        397247           1           1      631    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      536       2466.67      0.123925    1.2599e+06      0.7453      0.7453      632    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      537       2480.93     0.0577712        146710      0.6582      0.6582      633    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      538       2483.13     0.0293359        106978      0.6633      0.6633      634    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      539        2487.3     0.0737542       93378.1      0.9682      0.9682      635    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      540        2501.8      0.348998        252276           1           1      636    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      541       2509.82      0.120753        185539           1           1      637    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      542       2516.76      0.261281        515638           1           1      638    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      543       2517.89     0.0134131        273849      0.2096      0.8177      640    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      544       2521.79     0.0927915        251636       2.116      0.2116      642    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      545       2527.19     0.0484839        257548           1           1      643    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      546       2567.49      0.526151        595020           1           1      644    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      547       2599.65      0.282113        441595           1           1      645    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      548       2634.46      0.574002        800447      0.5207           1      647    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      549       2639.52      0.186831   3.81222e+06      0.5257      0.5257      648    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      550       2648.93     0.0894886   3.25964e+06      0.3946      0.3946      649    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      551       2668.29      0.584369        574035      0.4098           1      651    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      552       2670.45     0.0629234        515303      0.3495      0.3495      652    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      553       2672.31    0.00985974        485652      0.5334      0.5334      653    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      554        2674.1     0.0183459        425955       0.748       0.748      654    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      555       2676.05     0.0095523   2.37842e+06      0.1783           1      656    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      556       2678.78     0.0165858   2.10714e+06      0.1799      0.1799      657    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      557       2698.59      0.117831        652186           1           1      658    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      558       2706.83     0.0707523        657258           1           1      659    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      559       2713.54     0.0540813        647489           1           1      660    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      560       2721.37     0.0571626   2.29314e+06           1           1      661    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      561       2724.28    0.00555208        891189      0.4122           1      663    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      562       2734.07       0.16138   1.28746e+06       4.163      0.4163      665    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      563       2758.53     0.0400933        813721           1           1      666    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      564       2775.28    0.00388405        750084           1           1      667    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      565       2809.89     0.0618972        788343           1           1      668    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      566       2824.91     0.0468433   2.17105e+06      0.5118           1      670    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      567       2829.26     0.0238219    1.1885e+06      0.2479      0.5169      672    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      568       2841.62     0.0908824        618062       2.504      0.2504      674    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      569       2845.76       0.03685        311071           1           1      675    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      570       2847.57     0.0147301        159470           1           1      676    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      571       2848.74    0.00149413        135739           1           1      677    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      572       2850.63    0.00824944        541597           1           1      678    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      573       2850.78     0.0024508        170097      0.0911      0.9566      680    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      574       2851.28    0.00432682        156129      0.9201     0.09201      682    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      575        2851.8    0.00301842        104811      0.3037           1      684    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      576       2851.94   0.000685013         81454      0.3067      0.3067      685    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      577       2852.18    0.00674942       27368.3      0.8177      0.8177      686    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      578       2852.21    0.00233891       49039.1           1           1      687    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      579       2852.21   3.18162e-05       10548.1     0.03259      0.8638      689    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      580       2852.21   1.04884e-07       31604.9   9.943e-12       0.001      751  LS failed, Hessian reset  
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      581       2852.22   7.99887e-08       21188.9           1           1      752    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      582       2852.22   2.68164e-07       12251.5           1           1      753    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      583       2852.22   1.07054e-07       14444.5           1           1      754    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      584       2852.22   1.37975e-06       39855.2           1           1      755    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      585       2852.23   1.46784e-06       46005.6           1           1      756    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      586       2852.23   2.51992e-06       58279.5           1           1      757    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      587       2852.24   4.54197e-07       18644.7      0.6264      0.6264      758    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      588       2852.24   2.66425e-07       7019.46           1           1      759    
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]      589       2852.24   7.57276e-09       6243.99   1.079e-12       0.001      827  LS failed, Hessian reset  
+ YIKES!!!!  
+Path: [1] Iter: [0] : ELBO (1745.095250) 
+ YIKES!!!!  
+Path: [1] Iter: [1] : ELBO (9961.730775) 
+ YIKES!!!!  
+Path: [1] Iter: [2] : ELBO (4759.661412) 
+ YIKES!!!!  
+Path: [1] Iter: [3] : ELBO (5518.943916) 
+ YIKES!!!!  
+Path: [1] Iter: [4] : ELBO (4452.776067) 
+ YIKES!!!!  
+Path: [1] Iter: [5] : ELBO (4020.617371) 
+ YIKES!!!!  
+Path: [1] Iter: [6] : ELBO (4320.556658) 
+ YIKES!!!!  
+Path: [1] Iter: [7] : ELBO (4114.214659) 
+ YIKES!!!!  
+Path: [1] Iter: [8] : ELBO (4193.316104) 
+ YIKES!!!!  
+Path: [1] Iter: [9] : ELBO (5003.140875) 
+ YIKES!!!!  
+Path: [1] Iter: [10] : ELBO (3887.321387) 
+ YIKES!!!!  
+Path: [1] Iter: [11] : ELBO (3605.265579) 
+ YIKES!!!!  
+Path: [1] Iter: [12] : ELBO (3273.284161) 
+ YIKES!!!!  
+Path: [1] Iter: [13] : ELBO (3387.359857) 
+ YIKES!!!!  
+Path: [1] Iter: [14] : ELBO (4460.174932) 
+ YIKES!!!!  
+Path: [1] Iter: [15] : ELBO (4059.147140) 
+ YIKES!!!!  
+Path: [1] Iter: [16] : ELBO (4040.777773) 
+ YIKES!!!!  
+Path: [1] Iter: [17] : ELBO (3412.891581) 
+ YIKES!!!!  
+Path: [1] Iter: [18] : ELBO (3224.838667) 
+ YIKES!!!!  
+Path: [1] Iter: [19] : ELBO (3178.064372) 
+ YIKES!!!!  
+Path: [1] Iter: [20] : ELBO (3337.275312) 
+ YIKES!!!!  
+Path: [1] Iter: [21] : ELBO (4117.210977) 
+ YIKES!!!!  
+Path: [1] Iter: [22] : ELBO (3586.817291) 
+ YIKES!!!!  
+Path: [1] Iter: [23] : ELBO (3273.581491) 
+ YIKES!!!!  
+Path: [1] Iter: [24] : ELBO (4313.876999) 
+ YIKES!!!!  
+Path: [1] Iter: [25] : ELBO (3647.555466) 
+ YIKES!!!!  
+Path: [1] Iter: [26] : ELBO (3345.476432) 
+ YIKES!!!!  
+Path: [1] Iter: [27] : ELBO (3228.068442) 
+ YIKES!!!!  
+Path: [1] Iter: [28] : ELBO (3271.388467) 
+ YIKES!!!!  
+Path: [1] Iter: [29] : ELBO (4287.883390) 
+ YIKES!!!!  
+Path: [1] Iter: [30] : ELBO (4051.908491) 
+ YIKES!!!!  
+Path: [1] Iter: [31] : ELBO (3650.091992) 
+ YIKES!!!!  
+Path: [1] Iter: [32] : ELBO (3442.026836) 
+ YIKES!!!!  
+Path: [1] Iter: [33] : ELBO (4186.258861) 
+ YIKES!!!!  
+Path: [1] Iter: [34] : ELBO (4427.385982) 
+ YIKES!!!!  
+Path: [1] Iter: [35] : ELBO (3157.226244) 
+ YIKES!!!!  
+Path: [1] Iter: [36] : ELBO (3868.193609) 
+ YIKES!!!!  
+Path: [1] Iter: [37] : ELBO (4172.069085) 
+ YIKES!!!!  
+Path: [1] Iter: [38] : ELBO (4105.842281) 
+ YIKES!!!!  
+Path: [1] Iter: [39] : ELBO (4394.146004) 
+ YIKES!!!!  
+Path: [1] Iter: [40] : ELBO (4354.938774) 
+ YIKES!!!!  
+Path: [1] Iter: [41] : ELBO (4330.449967) 
+ YIKES!!!!  
+Path: [1] Iter: [42] : ELBO (4405.167572) 
+ YIKES!!!!  
+Path: [1] Iter: [43] : ELBO (4417.511409) 
+ YIKES!!!!  
+Path: [1] Iter: [44] : ELBO (4407.879724) 
+ YIKES!!!!  
+Path: [1] Iter: [45] : ELBO (4471.071078) 
+ YIKES!!!!  
+Path: [1] Iter: [46] : ELBO (4537.325578) 
+ YIKES!!!!  
+Path: [1] Iter: [47] : ELBO (4679.616129) 
+ YIKES!!!!  
+Path: [1] Iter: [48] : ELBO (4709.545153) 
+ YIKES!!!!  
+Path: [1] Iter: [49] : ELBO (4831.143323) 
+ YIKES!!!!  
+Path: [1] Iter: [50] : ELBO (4555.603730) 
+ YIKES!!!!  
+Path: [1] Iter: [51] : ELBO (4653.065113) 
+ YIKES!!!!  
+Path: [1] Iter: [52] : ELBO (5023.557360) 
+ YIKES!!!!  
+Path: [1] Iter: [53] : ELBO (4755.556897) 
+ YIKES!!!!  
+Path: [1] Iter: [54] : ELBO (4763.796524) 
+ YIKES!!!!  
+Path: [1] Iter: [55] : ELBO (5050.263732) 
+ YIKES!!!!  
+Path: [1] Iter: [56] : ELBO (4824.027707) 
+ YIKES!!!!  
+Path: [1] Iter: [57] : ELBO (4860.531259) 
+ YIKES!!!!  
+Path: [1] Iter: [58] : ELBO (5068.100866) 
+ YIKES!!!!  
+Path: [1] Iter: [59] : ELBO (4901.544595) 
+ YIKES!!!!  
+Path: [1] Iter: [60] : ELBO (4891.505868) 
+ YIKES!!!!  
+Path: [1] Iter: [61] : ELBO (5229.668249) 
+ YIKES!!!!  
+Path: [1] Iter: [62] : ELBO (4923.831443) 
+ YIKES!!!!  
+Path: [1] Iter: [63] : ELBO (4977.253085) 
+ YIKES!!!!  
+Path: [1] Iter: [64] : ELBO (5248.168137) 
+ YIKES!!!!  
+Path: [1] Iter: [65] : ELBO (5020.718706) 
+ YIKES!!!!  
+Path: [1] Iter: [66] : ELBO (5001.005950) 
+ YIKES!!!!  
+Path: [1] Iter: [67] : ELBO (5051.443792) 
+ YIKES!!!!  
+Path: [1] Iter: [68] : ELBO (4906.027913) 
+ YIKES!!!!  
+Path: [1] Iter: [69] : ELBO (5057.661507) 
+ YIKES!!!!  
+Path: [1] Iter: [70] : ELBO (5090.855051) 
+ YIKES!!!!  
+Path: [1] Iter: [71] : ELBO (5130.349858) 
+ YIKES!!!!  
+Path: [1] Iter: [72] : ELBO (5051.476723) 
+ YIKES!!!!  
+Path: [1] Iter: [73] : ELBO (5021.046784) 
+ YIKES!!!!  
+Path: [1] Iter: [74] : ELBO (4679.091745) 
+ YIKES!!!!  
+Path: [1] Iter: [75] : ELBO (4624.428027) 
+ YIKES!!!!  
+Path: [1] Iter: [76] : ELBO (4865.137562) 
+ YIKES!!!!  
+Path: [1] Iter: [77] : ELBO (4972.224894) 
+ YIKES!!!!  
+Path: [1] Iter: [78] : ELBO (4929.145758) 
+ YIKES!!!!  
+Path: [1] Iter: [79] : ELBO (4426.194344) 
+ YIKES!!!!  
+Path: [1] Iter: [80] : ELBO (4917.906674) 
+ YIKES!!!!  
+Path: [1] Iter: [81] : ELBO (4971.405500) 
+ YIKES!!!!  
+Path: [1] Iter: [82] : ELBO (4157.831951) 
+ YIKES!!!!  
+Path: [1] Iter: [83] : ELBO (4634.775798) 
+ YIKES!!!!  
+Path: [1] Iter: [84] : ELBO (4069.535885) 
+ YIKES!!!!  
+Path: [1] Iter: [85] : ELBO (4914.610380) 
+ YIKES!!!!  
+Path: [1] Iter: [86] : ELBO (4982.045040) 
+ YIKES!!!!  
+Path: [1] Iter: [87] : ELBO (5030.619483) 
+ YIKES!!!!  
+Path: [1] Iter: [88] : ELBO (5091.175053) 
+ YIKES!!!!  
+Path: [1] Iter: [89] : ELBO (5171.120086) 
+ YIKES!!!!  
+Path: [1] Iter: [90] : ELBO (5195.091440) 
+ YIKES!!!!  
+Path: [1] Iter: [91] : ELBO (5099.692668) 
+ YIKES!!!!  
+Path: [1] Iter: [92] : ELBO (5026.671181) 
+ YIKES!!!!  
+Path: [1] Iter: [93] : ELBO (5118.447146) 
+ YIKES!!!!  
+Path: [1] Iter: [94] : ELBO (4950.421660) 
+ YIKES!!!!  
+Path: [1] Iter: [95] : ELBO (5026.325190) 
+ YIKES!!!!  
+Path: [1] Iter: [96] : ELBO (5166.325512) 
+ YIKES!!!!  
+Path: [1] Iter: [97] : ELBO (4993.393176) 
+ YIKES!!!!  
+Path: [1] Iter: [98] : ELBO (4922.370385) 
+ YIKES!!!!  
+Path: [1] Iter: [99] : ELBO (4857.574587) 
+ YIKES!!!!  
+Path: [1] Iter: [100] : ELBO (4802.640162) 
+ YIKES!!!!  
+Path: [1] Iter: [101] : ELBO (5128.080343) 
+ YIKES!!!!  
+Path: [1] Iter: [102] : ELBO (4962.842011) 
+ YIKES!!!!  
+Path: [1] Iter: [103] : ELBO (4986.897608) 
+ YIKES!!!!  
+Path: [1] Iter: [104] : ELBO (5085.892734) 
+ YIKES!!!!  
+Path: [1] Iter: [105] : ELBO (5114.052785) 
+ YIKES!!!!  
+Path: [1] Iter: [106] : ELBO (5086.624030) 
+ YIKES!!!!  
+Path: [1] Iter: [107] : ELBO (5111.658930) 
+ YIKES!!!!  
+Path: [1] Iter: [108] : ELBO (4932.478775) 
+ YIKES!!!!  
+Path: [1] Iter: [109] : ELBO (4717.625729) 
+ YIKES!!!!  
+Path: [1] Iter: [110] : ELBO (4476.474222) 
+ YIKES!!!!  
+Path: [1] Iter: [111] : ELBO (5112.486074) 
+ YIKES!!!!  
+Path: [1] Iter: [112] : ELBO (4412.429945) 
+ YIKES!!!!  
+Path: [1] Iter: [113] : ELBO (4398.847118) 
+ YIKES!!!!  
+Path: [1] Iter: [114] : ELBO (4445.198500) 
+ YIKES!!!!  
+Path: [1] Iter: [115] : ELBO (4161.631848) 
+ YIKES!!!!  
+Path: [1] Iter: [116] : ELBO (3815.920665) 
+ YIKES!!!!  
+Path: [1] Iter: [117] : ELBO (3622.862374) 
+ YIKES!!!!  
+Path: [1] Iter: [118] : ELBO (4283.299097) 
+ YIKES!!!!  
+Path: [1] Iter: [119] : ELBO (4125.531565) 
+ YIKES!!!!  
+Path: [1] Iter: [120] : ELBO (4540.454808) 
+ YIKES!!!!  
+Path: [1] Iter: [121] : ELBO (4887.324435) 
+ YIKES!!!!  
+Path: [1] Iter: [122] : ELBO (4084.850530) 
+ YIKES!!!!  
+Path: [1] Iter: [123] : ELBO (3995.012695) 
+ YIKES!!!!  
+Path: [1] Iter: [124] : ELBO (4797.021665) 
+ YIKES!!!!  
+Path: [1] Iter: [125] : ELBO (4133.726804) 
+ YIKES!!!!  
+Path: [1] Iter: [126] : ELBO (4108.849261) 
+ YIKES!!!!  
+Path: [1] Iter: [127] : ELBO (3703.861289) 
+ YIKES!!!!  
+Path: [1] Iter: [128] : ELBO (4237.923979) 
+ YIKES!!!!  
+Path: [1] Iter: [129] : ELBO (4174.121690) 
+ YIKES!!!!  
+Path: [1] Iter: [130] : ELBO (4588.865518) 
+ YIKES!!!!  
+Path: [1] Iter: [131] : ELBO (4690.517223) 
+ YIKES!!!!  
+Path: [1] Iter: [132] : ELBO (4553.181327) 
+ YIKES!!!!  
+Path: [1] Iter: [133] : ELBO (4696.321812) 
+ YIKES!!!!  
+Path: [1] Iter: [134] : ELBO (4701.762146) 
+ YIKES!!!!  
+Path: [1] Iter: [135] : ELBO (4143.347750) 
+ YIKES!!!!  
+Path: [1] Iter: [136] : ELBO (4127.408930) 
+ YIKES!!!!  
+Path: [1] Iter: [137] : ELBO (3882.224545) 
+ YIKES!!!!  
+Path: [1] Iter: [138] : ELBO (4677.728973) 
+ YIKES!!!!  
+Path: [1] Iter: [139] : ELBO (4790.541355) 
+ YIKES!!!!  
+Path: [1] Iter: [140] : ELBO (4335.970808) 
+ YIKES!!!!  
+Path: [1] Iter: [141] : ELBO (3743.195228) 
+ YIKES!!!!  
+Path: [1] Iter: [142] : ELBO (3298.893822) 
+ YIKES!!!!  
+Path: [1] Iter: [143] : ELBO (4035.391638) 
+ YIKES!!!!  
+Path: [1] Iter: [144] : ELBO (4109.793415) 
+ YIKES!!!!  
+Path: [1] Iter: [145] : ELBO (4396.933691) 
+ YIKES!!!!  
+Path: [1] Iter: [146] : ELBO (4166.019111) 
+ YIKES!!!!  
+Path: [1] Iter: [147] : ELBO (4150.146219) 
+ YIKES!!!!  
+Path: [1] Iter: [148] : ELBO (4577.401556) 
+ YIKES!!!!  
+Path: [1] Iter: [149] : ELBO (4627.104496) 
+ YIKES!!!!  
+Path: [1] Iter: [150] : ELBO (4645.809572) 
+ YIKES!!!!  
+Path: [1] Iter: [151] : ELBO (4688.558658) 
+ YIKES!!!!  
+Path: [1] Iter: [152] : ELBO (4730.919924) 
+ YIKES!!!!  
+Path: [1] Iter: [153] : ELBO (4687.776450) 
+ YIKES!!!!  
+Path: [1] Iter: [154] : ELBO (4781.190597) 
+ YIKES!!!!  
+Path: [1] Iter: [155] : ELBO (4440.357115) 
+ YIKES!!!!  
+Path: [1] Iter: [156] : ELBO (4710.321171) 
+ YIKES!!!!  
+Path: [1] Iter: [157] : ELBO (4925.034464) 
+ YIKES!!!!  
+Path: [1] Iter: [158] : ELBO (4151.800985) 
+ YIKES!!!!  
+Path: [1] Iter: [159] : ELBO (4013.297502) 
+ YIKES!!!!  
+Path: [1] Iter: [160] : ELBO (4188.828834) 
+ YIKES!!!!  
+Path: [1] Iter: [161] : ELBO (4312.733374) 
+ YIKES!!!!  
+Path: [1] Iter: [162] : ELBO (3740.595137) 
+ YIKES!!!!  
+Path: [1] Iter: [163] : ELBO (4811.096439) 
+ YIKES!!!!  
+Path: [1] Iter: [164] : ELBO (4389.342811) 
+ YIKES!!!!  
+Path: [1] Iter: [165] : ELBO (4182.154305) 
+ YIKES!!!!  
+Path: [1] Iter: [166] : ELBO (4707.227647) 
+ YIKES!!!!  
+Path: [1] Iter: [167] : ELBO (4069.908440) 
+ YIKES!!!!  
+Path: [1] Iter: [168] : ELBO (4206.441307) 
+ YIKES!!!!  
+Path: [1] Iter: [169] : ELBO (4149.527243) 
+ YIKES!!!!  
+Path: [1] Iter: [170] : ELBO (3926.694415) 
+ YIKES!!!!  
+Path: [1] Iter: [171] : ELBO (4500.061683) 
+ YIKES!!!!  
+Path: [1] Iter: [172] : ELBO (3960.756854) 
+ YIKES!!!!  
+Path: [1] Iter: [173] : ELBO (3985.918237) 
+ YIKES!!!!  
+Path: [1] Iter: [174] : ELBO (4274.401790) 
+ YIKES!!!!  
+Path: [1] Iter: [175] : ELBO (4632.796691) 
+ YIKES!!!!  
+Path: [1] Iter: [176] : ELBO (4567.431717) 
+ YIKES!!!!  
+Path: [1] Iter: [177] : ELBO (4789.318275) 
+ YIKES!!!!  
+Path: [1] Iter: [178] : ELBO (4668.001989) 
+ YIKES!!!!  
+Path: [1] Iter: [179] : ELBO (4693.225668) 
+ YIKES!!!!  
+Path: [1] Iter: [180] : ELBO (4660.061619) 
+ YIKES!!!!  
+Path: [1] Iter: [181] : ELBO (4892.423916) 
+ YIKES!!!!  
+Path: [1] Iter: [182] : ELBO (4667.501613) 
+ YIKES!!!!  
+Path: [1] Iter: [183] : ELBO (4983.068988) 
+ YIKES!!!!  
+Path: [1] Iter: [184] : ELBO (4685.623607) 
+ YIKES!!!!  
+Path: [1] Iter: [185] : ELBO (4662.427296) 
+ YIKES!!!!  
+Path: [1] Iter: [186] : ELBO (4665.240560) 
+ YIKES!!!!  
+Path: [1] Iter: [187] : ELBO (4800.295511) 
+ YIKES!!!!  
+Path: [1] Iter: [188] : ELBO (4678.109476) 
+ YIKES!!!!  
+Path: [1] Iter: [189] : ELBO (4587.826543) 
+ YIKES!!!!  
+Path: [1] Iter: [190] : ELBO (4699.138888) 
+ YIKES!!!!  
+Path: [1] Iter: [191] : ELBO (4682.170384) 
+ YIKES!!!!  
+Path: [1] Iter: [192] : ELBO (4876.852406) 
+ YIKES!!!!  
+Path: [1] Iter: [193] : ELBO (4897.045417) 
+ YIKES!!!!  
+Path: [1] Iter: [194] : ELBO (4878.973213) 
+ YIKES!!!!  
+Path: [1] Iter: [195] : ELBO (4567.182696) 
+ YIKES!!!!  
+Path: [1] Iter: [196] : ELBO (4805.805068) 
+ YIKES!!!!  
+Path: [1] Iter: [197] : ELBO (4656.157243) 
+ YIKES!!!!  
+Path: [1] Iter: [198] : ELBO (4463.976001) 
+ YIKES!!!!  
+Path: [1] Iter: [199] : ELBO (4793.350607) 
+ YIKES!!!!  
+Path: [1] Iter: [200] : ELBO (4333.773210) 
+ YIKES!!!!  
+Path: [1] Iter: [201] : ELBO (4120.058828) 
+ YIKES!!!!  
+Path: [1] Iter: [202] : ELBO (4356.776824) 
+ YIKES!!!!  
+Path: [1] Iter: [203] : ELBO (4276.012866) 
+ YIKES!!!!  
+Path: [1] Iter: [204] : ELBO (4293.381214) 
+ YIKES!!!!  
+Path: [1] Iter: [205] : ELBO (4551.379447) 
+ YIKES!!!!  
+Path: [1] Iter: [206] : ELBO (4443.299815) 
+ YIKES!!!!  
+Path: [1] Iter: [207] : ELBO (4396.782927) 
+ YIKES!!!!  
+Path: [1] Iter: [208] : ELBO (4096.632150) 
+ YIKES!!!!  
+Path: [1] Iter: [209] : ELBO (4077.278612) 
+ YIKES!!!!  
+Path: [1] Iter: [210] : ELBO (4088.103495) 
+ YIKES!!!!  
+Path: [1] Iter: [211] : ELBO (3184.965692) 
+ YIKES!!!!  
+Path: [1] Iter: [212] : ELBO (4466.711100) 
+ YIKES!!!!  
+Path: [1] Iter: [213] : ELBO (3388.003455) 
+ YIKES!!!!  
+Path: [1] Iter: [214] : ELBO (3618.701431) 
+ YIKES!!!!  
+Path: [1] Iter: [215] : ELBO (4640.818691) 
+ YIKES!!!!  
+Path: [1] Iter: [216] : ELBO (4339.498093) 
+ YIKES!!!!  
+Path: [1] Iter: [217] : ELBO (4552.679453) 
+ YIKES!!!!  
+Path: [1] Iter: [218] : ELBO (4811.763160) 
+ YIKES!!!!  
+Path: [1] Iter: [219] : ELBO (4722.424873) 
+ YIKES!!!!  
+Path: [1] Iter: [220] : ELBO (4756.963180) 
+ YIKES!!!!  
+Path: [1] Iter: [221] : ELBO (4132.993509) 
+ YIKES!!!!  
+Path: [1] Iter: [222] : ELBO (4818.004970) 
+ YIKES!!!!  
+Path: [1] Iter: [223] : ELBO (4247.296963) 
+ YIKES!!!!  
+Path: [1] Iter: [224] : ELBO (3547.410381) 
+ YIKES!!!!  
+Path: [1] Iter: [225] : ELBO (3474.616560) 
+ YIKES!!!!  
+Path: [1] Iter: [226] : ELBO (3744.210182) 
+ YIKES!!!!  
+Path: [1] Iter: [227] : ELBO (3763.417501) 
+ YIKES!!!!  
+Path: [1] Iter: [228] : ELBO (4590.641759) 
+ YIKES!!!!  
+Path: [1] Iter: [229] : ELBO (4548.372032) 
+ YIKES!!!!  
+Path: [1] Iter: [230] : ELBO (4190.782152) 
+ YIKES!!!!  
+Path: [1] Iter: [231] : ELBO (4591.075816) 
+ YIKES!!!!  
+Path: [1] Iter: [232] : ELBO (4437.804744) 
+ YIKES!!!!  
+Path: [1] Iter: [233] : ELBO (4633.277100) 
+ YIKES!!!!  
+Path: [1] Iter: [234] : ELBO (4075.886885) 
+ YIKES!!!!  
+Path: [1] Iter: [235] : ELBO (4646.625116) 
+ YIKES!!!!  
+Path: [1] Iter: [236] : ELBO (3499.060194) 
+ YIKES!!!!  
+Path: [1] Iter: [237] : ELBO (3579.056712) 
+ YIKES!!!!  
+Path: [1] Iter: [238] : ELBO (2811.392554) 
+ YIKES!!!!  
+Path: [1] Iter: [239] : ELBO (3649.676801) 
+ YIKES!!!!  
+Path: [1] Iter: [240] : ELBO (4394.695573) 
+ YIKES!!!!  
+Path: [1] Iter: [241] : ELBO (4400.699350) 
+ YIKES!!!!  
+Path: [1] Iter: [242] : ELBO (4789.833486) 
+ YIKES!!!!  
+Path: [1] Iter: [243] : ELBO (3862.024020) 
+ YIKES!!!!  
+Path: [1] Iter: [244] : ELBO (4882.598006) 
+ YIKES!!!!  
+Path: [1] Iter: [245] : ELBO (4908.292953) 
+ YIKES!!!!  
+Path: [1] Iter: [246] : ELBO (4372.090278) 
+ YIKES!!!!  
+Path: [1] Iter: [247] : ELBO (4159.899373) 
+ YIKES!!!!  
+Path: [1] Iter: [248] : ELBO (3307.989778) 
+ YIKES!!!!  
+Path: [1] Iter: [249] : ELBO (3578.764124) 
+ YIKES!!!!  
+Path: [1] Iter: [250] : ELBO (4048.833892) 
+ YIKES!!!!  
+Path: [1] Iter: [251] : ELBO (3303.525728) 
+ YIKES!!!!  
+Path: [1] Iter: [252] : ELBO (4766.178937) 
+ YIKES!!!!  
+Path: [1] Iter: [253] : ELBO (4212.112726) 
+ YIKES!!!!  
+Path: [1] Iter: [254] : ELBO (4577.356726) 
+ YIKES!!!!  
+Path: [1] Iter: [255] : ELBO (3499.873647) 
+ YIKES!!!!  
+Path: [1] Iter: [256] : ELBO (4372.555054) 
+ YIKES!!!!  
+Path: [1] Iter: [257] : ELBO (3439.020169) 
+ YIKES!!!!  
+Path: [1] Iter: [258] : ELBO (5158.976428) 
+ YIKES!!!!  
+Path: [1] Iter: [259] : ELBO (5038.739816) 
+ YIKES!!!!  
+Path: [1] Iter: [260] : ELBO (4160.096978) 
+ YIKES!!!!  
+Path: [1] Iter: [261] : ELBO (4523.931502) 
+ YIKES!!!!  
+Path: [1] Iter: [262] : ELBO (3303.818675) 
+ YIKES!!!!  
+Path: [1] Iter: [263] : ELBO (3895.372581) 
+ YIKES!!!!  
+Path: [1] Iter: [264] : ELBO (4852.230398) 
+ YIKES!!!!  
+Path: [1] Iter: [265] : ELBO (4193.410361) 
+ YIKES!!!!  
+Path: [1] Iter: [266] : ELBO (4882.774023) 
+ YIKES!!!!  
+Path: [1] Iter: [267] : ELBO (4501.378246) 
+ YIKES!!!!  
+Path: [1] Iter: [268] : ELBO (4795.669073) 
+ YIKES!!!!  
+Path: [1] Iter: [269] : ELBO (5257.234858) 
+ YIKES!!!!  
+Path: [1] Iter: [270] : ELBO (5234.615408) 
+ YIKES!!!!  
+Path: [1] Iter: [271] : ELBO (5273.658575) 
+ YIKES!!!!  
+Path: [1] Iter: [272] : ELBO (5202.482523) 
+ YIKES!!!!  
+Path: [1] Iter: [273] : ELBO (5276.401550) 
+ YIKES!!!!  
+Path: [1] Iter: [274] : ELBO (4982.325141) 
+ YIKES!!!!  
+Path: [1] Iter: [275] : ELBO (4688.662555) 
+ YIKES!!!!  
+Path: [1] Iter: [276] : ELBO (5311.506186) 
+ YIKES!!!!  
+Path: [1] Iter: [277] : ELBO (5169.666987) 
+ YIKES!!!!  
+Path: [1] Iter: [278] : ELBO (5225.294213) 
+ YIKES!!!!  
+Path: [1] Iter: [279] : ELBO (5340.393286) 
+ YIKES!!!!  
+Path: [1] Iter: [280] : ELBO (5054.623408) 
+ YIKES!!!!  
+Path: [1] Iter: [281] : ELBO (5157.155720) 
+ YIKES!!!!  
+Path: [1] Iter: [282] : ELBO (5178.278695) 
+ YIKES!!!!  
+Path: [1] Iter: [283] : ELBO (5413.465722) 
+ YIKES!!!!  
+Path: [1] Iter: [284] : ELBO (5335.039067) 
+ YIKES!!!!  
+Path: [1] Iter: [285] : ELBO (5275.042844) 
+ YIKES!!!!  
+Path: [1] Iter: [286] : ELBO (5279.444332) 
+ YIKES!!!!  
+Path: [1] Iter: [287] : ELBO (5050.682679) 
+ YIKES!!!!  
+Path: [1] Iter: [288] : ELBO (5384.172477) 
+ YIKES!!!!  
+Path: [1] Iter: [289] : ELBO (5646.953380) 
+ YIKES!!!!  
+Path: [1] Iter: [290] : ELBO (5490.792526) 
+ YIKES!!!!  
+Path: [1] Iter: [291] : ELBO (5568.568031) 
+ YIKES!!!!  
+Path: [1] Iter: [292] : ELBO (5563.949554) 
+ YIKES!!!!  
+Path: [1] Iter: [293] : ELBO (5487.177842) 
+ YIKES!!!!  
+Path: [1] Iter: [294] : ELBO (5307.574631) 
+ YIKES!!!!  
+Path: [1] Iter: [295] : ELBO (5688.655590) 
+ YIKES!!!!  
+Path: [1] Iter: [296] : ELBO (5494.850853) 
+ YIKES!!!!  
+Path: [1] Iter: [297] : ELBO (5722.975824) 
+ YIKES!!!!  
+Path: [1] Iter: [298] : ELBO (5843.461485) 
+ YIKES!!!!  
+Path: [1] Iter: [299] : ELBO (5889.262468) 
+ YIKES!!!!  
+Path: [1] Iter: [300] : ELBO (5903.418923) 
+ YIKES!!!!  
+Path: [1] Iter: [301] : ELBO (5888.047253) 
+ YIKES!!!!  
+Path: [1] Iter: [302] : ELBO (5740.274229) 
+ YIKES!!!!  
+Path: [1] Iter: [303] : ELBO (5849.736519) 
+ YIKES!!!!  
+Path: [1] Iter: [304] : ELBO (5953.473313) 
+ YIKES!!!!  
+Path: [1] Iter: [305] : ELBO (5964.136037) 
+ YIKES!!!!  
+Path: [1] Iter: [306] : ELBO (6010.107481) 
+ YIKES!!!!  
+Path: [1] Iter: [307] : ELBO (6147.169022) 
+ YIKES!!!!  
+Path: [1] Iter: [308] : ELBO (6175.036478) 
+ YIKES!!!!  
+Path: [1] Iter: [309] : ELBO (6075.281689) 
+ YIKES!!!!  
+Path: [1] Iter: [310] : ELBO (6115.687032) 
+ YIKES!!!!  
+Path: [1] Iter: [311] : ELBO (6036.786485) 
+ YIKES!!!!  
+Path: [1] Iter: [312] : ELBO (6171.439121) 
+ YIKES!!!!  
+Path: [1] Iter: [313] : ELBO (6326.257316) 
+ YIKES!!!!  
+Path: [1] Iter: [314] : ELBO (6289.683426) 
+ YIKES!!!!  
+Path: [1] Iter: [315] : ELBO (6221.757035) 
+ YIKES!!!!  
+Path: [1] Iter: [316] : ELBO (6164.092785) 
+ YIKES!!!!  
+Path: [1] Iter: [317] : ELBO (6243.499850) 
+ YIKES!!!!  
+Path: [1] Iter: [318] : ELBO (6161.300835) 
+ YIKES!!!!  
+Path: [1] Iter: [319] : ELBO (6325.791731) 
+ YIKES!!!!  
+Path: [1] Iter: [320] : ELBO (6572.315309) 
+ YIKES!!!!  
+Path: [1] Iter: [321] : ELBO (6652.337478) 
+ YIKES!!!!  
+Path: [1] Iter: [322] : ELBO (6601.027820) 
+ YIKES!!!!  
+Path: [1] Iter: [323] : ELBO (6579.761171) 
+ YIKES!!!!  
+Path: [1] Iter: [324] : ELBO (6571.827677) 
+ YIKES!!!!  
+Path: [1] Iter: [325] : ELBO (6425.868180) 
+ YIKES!!!!  
+Path: [1] Iter: [326] : ELBO (6764.554764) 
+ YIKES!!!!  
+Path: [1] Iter: [327] : ELBO (6296.285426) 
+ YIKES!!!!  
+Path: [1] Iter: [328] : ELBO (6370.413332) 
+ YIKES!!!!  
+Path: [1] Iter: [329] : ELBO (6872.516295) 
+ YIKES!!!!  
+Path: [1] Iter: [330] : ELBO (6934.030421) 
+ YIKES!!!!  
+Path: [1] Iter: [331] : ELBO (6728.723187) 
+ YIKES!!!!  
+Path: [1] Iter: [332] : ELBO (6979.139749) 
+ YIKES!!!!  
+Path: [1] Iter: [333] : ELBO (6847.552601) 
+ YIKES!!!!  
+Path: [1] Iter: [334] : ELBO (6908.129269) 
+ YIKES!!!!  
+Path: [1] Iter: [335] : ELBO (6795.641558) 
+ YIKES!!!!  
+Path: [1] Iter: [336] : ELBO (6838.301043) 
+ YIKES!!!!  
+Path: [1] Iter: [337] : ELBO (6811.699846) 
+ YIKES!!!!  
+Path: [1] Iter: [338] : ELBO (7043.129208) 
+ YIKES!!!!  
+Path: [1] Iter: [339] : ELBO (6777.285582) 
+ YIKES!!!!  
+Path: [1] Iter: [340] : ELBO (6709.021441) 
+ YIKES!!!!  
+Path: [1] Iter: [341] : ELBO (6982.367187) 
+ YIKES!!!!  
+Path: [1] Iter: [342] : ELBO (6906.245427) 
+ YIKES!!!!  
+Path: [1] Iter: [343] : ELBO (7255.783117) 
+ YIKES!!!!  
+Path: [1] Iter: [344] : ELBO (7010.285788) 
+ YIKES!!!!  
+Path: [1] Iter: [345] : ELBO (7490.374260) 
+ YIKES!!!!  
+Path: [1] Iter: [346] : ELBO (7342.227136) 
+ YIKES!!!!  
+Path: [1] Iter: [347] : ELBO (7339.397802) 
+ YIKES!!!!  
+Path: [1] Iter: [348] : ELBO (7121.549463) 
+ YIKES!!!!  
+Path: [1] Iter: [349] : ELBO (6924.577480) 
+ YIKES!!!!  
+Path: [1] Iter: [350] : ELBO (7096.566132) 
+ YIKES!!!!  
+Path: [1] Iter: [351] : ELBO (7342.106042) 
+ YIKES!!!!  
+Path: [1] Iter: [352] : ELBO (7980.959123) 
+ YIKES!!!!  
+Path: [1] Iter: [353] : ELBO (8072.332151) 
+ YIKES!!!!  
+Path: [1] Iter: [354] : ELBO (7504.432859) 
+ YIKES!!!!  
+Path: [1] Iter: [355] : ELBO (7406.124032) 
+ YIKES!!!!  
+Path: [1] Iter: [356] : ELBO (7765.481377) 
+ YIKES!!!!  
+Path: [1] Iter: [357] : ELBO (8207.155375) 
+ YIKES!!!!  
+Path: [1] Iter: [358] : ELBO (7014.894639) 
+ YIKES!!!!  
+Path: [1] Iter: [359] : ELBO (7268.636007) 
+ YIKES!!!!  
+Path: [1] Iter: [360] : ELBO (7656.960088) 
+ YIKES!!!!  
+Path: [1] Iter: [361] : ELBO (8168.470245) 
+ YIKES!!!!  
+Path: [1] Iter: [362] : ELBO (8377.955700) 
+ YIKES!!!!  
+Path: [1] Iter: [363] : ELBO (7069.465010) 
+ YIKES!!!!  
+Path: [1] Iter: [364] : ELBO (7099.759121) 
+ YIKES!!!!  
+Path: [1] Iter: [365] : ELBO (7734.904352) 
+ YIKES!!!!  
+Path: [1] Iter: [366] : ELBO (7743.081957) 
+ YIKES!!!!  
+Path: [1] Iter: [367] : ELBO (7678.272685) 
+ YIKES!!!!  
+Path: [1] Iter: [368] : ELBO (7715.500682) 
+ YIKES!!!!  
+Path: [1] Iter: [369] : ELBO (8095.068378) 
+ YIKES!!!!  
+Path: [1] Iter: [370] : ELBO (8062.557196) 
+ YIKES!!!!  
+Path: [1] Iter: [371] : ELBO (8049.793443) 
+ YIKES!!!!  
+Path: [1] Iter: [372] : ELBO (7917.710326) 
+ YIKES!!!!  
+Path: [1] Iter: [373] : ELBO (7989.383720) 
+ YIKES!!!!  
+Path: [1] Iter: [374] : ELBO (7944.716051) 
+ YIKES!!!!  
+Path: [1] Iter: [375] : ELBO (8057.248892) 
+ YIKES!!!!  
+Path: [1] Iter: [376] : ELBO (9131.827718) 
+ YIKES!!!!  
+Path: [1] Iter: [377] : ELBO (8655.432070) 
+ YIKES!!!!  
+Path: [1] Iter: [378] : ELBO (8977.565732) 
+ YIKES!!!!  
+Path: [1] Iter: [379] : ELBO (8930.809966) 
+ YIKES!!!!  
+Path: [1] Iter: [380] : ELBO (8368.050076) 
+ YIKES!!!!  
+Path: [1] Iter: [381] : ELBO (8299.034878) 
+ YIKES!!!!  
+Path: [1] Iter: [382] : ELBO (9312.955633) 
+ YIKES!!!!  
+Path: [1] Iter: [383] : ELBO (9277.569000) 
+ YIKES!!!!  
+Path: [1] Iter: [384] : ELBO (9322.869963) 
+ YIKES!!!!  
+Path: [1] Iter: [385] : ELBO (8829.668162) 
+ YIKES!!!!  
+Path: [1] Iter: [386] : ELBO (7605.432520) 
+ YIKES!!!!  
+Path: [1] Iter: [387] : ELBO (7487.505314) 
+ YIKES!!!!  
+Path: [1] Iter: [388] : ELBO (9138.907908) 
+ YIKES!!!!  
+Path: [1] Iter: [389] : ELBO (8953.309545) 
+ YIKES!!!!  
+Path: [1] Iter: [390] : ELBO (8613.628267) 
+ YIKES!!!!  
+Path: [1] Iter: [391] : ELBO (7999.860799) 
+ YIKES!!!!  
+Path: [1] Iter: [392] : ELBO (8215.009603) 
+ YIKES!!!!  
+Path: [1] Iter: [393] : ELBO (10089.647973) 
+ YIKES!!!!  
+Path: [1] Iter: [394] : ELBO (14381.086491) 
+ YIKES!!!!  
+Path: [1] Iter: [395] : ELBO (9286.972408) 
+ YIKES!!!!  
+Path: [1] Iter: [396] : ELBO (10537.924202) 
+ YIKES!!!!  
+Path: [1] Iter: [397] : ELBO (10582.221821) 
+ YIKES!!!!  
+Path: [1] Iter: [398] : ELBO (10537.577167) 
+ YIKES!!!!  
+Path: [1] Iter: [399] : ELBO (10582.845155) 
+ YIKES!!!!  
+Path: [1] Iter: [400] : ELBO (10636.875978) 
+ YIKES!!!!  
+Path: [1] Iter: [401] : ELBO (10484.916804) 
+ YIKES!!!!  
+Path: [1] Iter: [402] : ELBO (10258.389884) 
+ YIKES!!!!  
+Path: [1] Iter: [403] : ELBO (10224.042646) 
+ YIKES!!!!  
+Path: [1] Iter: [404] : ELBO (10052.719356) 
+ YIKES!!!!  
+Path: [1] Iter: [405] : ELBO (9931.988281) 
+ YIKES!!!!  
+Path: [1] Iter: [406] : ELBO (9860.749868) 
+ YIKES!!!!  
+Path: [1] Iter: [407] : ELBO (9922.020379) 
+ YIKES!!!!  
+Path: [1] Iter: [408] : ELBO (10762.893532) 
+ YIKES!!!!  
+Path: [1] Iter: [409] : ELBO (10151.970873) 
+ YIKES!!!!  
+Path: [1] Iter: [410] : ELBO (10145.788961) 
+ YIKES!!!!  
+Path: [1] Iter: [411] : ELBO (10293.033027) 
+ YIKES!!!!  
+Path: [1] Iter: [412] : ELBO (10857.962858) 
+ YIKES!!!!  
+Path: [1] Iter: [413] : ELBO (10719.213115) 
+ YIKES!!!!  
+Path: [1] Iter: [414] : ELBO (10488.315708) 
+ YIKES!!!!  
+Path: [1] Iter: [415] : ELBO (9979.354810) 
+ YIKES!!!!  
+Path: [1] Iter: [416] : ELBO (10049.943878) 
+ YIKES!!!!  
+Path: [1] Iter: [417] : ELBO (9715.307648) 
+ YIKES!!!!  
+Path: [1] Iter: [418] : ELBO (9521.373970) 
+ YIKES!!!!  
+Path: [1] Iter: [419] : ELBO (9322.188439) 
+ YIKES!!!!  
+Path: [1] Iter: [420] : ELBO (10819.070065) 
+ YIKES!!!!  
+Path: [1] Iter: [421] : ELBO (10582.875065) 
+ YIKES!!!!  
+Path: [1] Iter: [422] : ELBO (9815.631683) 
+ YIKES!!!!  
+Path: [1] Iter: [423] : ELBO (10340.819189) 
+ YIKES!!!!  
+Path: [1] Iter: [424] : ELBO (9387.208352) 
+ YIKES!!!!  
+Path: [1] Iter: [425] : ELBO (9245.818318) 
+ YIKES!!!!  
+Path: [1] Iter: [426] : ELBO (9352.518689) 
+ YIKES!!!!  
+Path: [1] Iter: [427] : ELBO (10637.863182) 
+ YIKES!!!!  
+Path: [1] Iter: [428] : ELBO (10777.654365) 
+ YIKES!!!!  
+Path: [1] Iter: [429] : ELBO (10662.479248) 
+ YIKES!!!!  
+Path: [1] Iter: [430] : ELBO (10760.889795) 
+ YIKES!!!!  
+Path: [1] Iter: [431] : ELBO (10168.131700) 
+ YIKES!!!!  
+Path: [1] Iter: [432] : ELBO (9963.124464) 
+ YIKES!!!!  
+Path: [1] Iter: [433] : ELBO (9580.106906) 
+ YIKES!!!!  
+Path: [1] Iter: [434] : ELBO (10184.685687) 
+ YIKES!!!!  
+Path: [1] Iter: [435] : ELBO (9612.112248) 
+ YIKES!!!!  
+Path: [1] Iter: [436] : ELBO (9073.779855) 
+ YIKES!!!!  
+Path: [1] Iter: [437] : ELBO (8315.169791) 
+ YIKES!!!!  
+Path: [1] Iter: [438] : ELBO (9015.533614) 
+ YIKES!!!!  
+Path: [1] Iter: [439] : ELBO (8707.819071) 
+ YIKES!!!!  
+Path: [1] Iter: [440] : ELBO (9142.098463) 
+ YIKES!!!!  
+Path: [1] Iter: [441] : ELBO (10104.218476) 
+ YIKES!!!!  
+Path: [1] Iter: [442] : ELBO (8644.981613) 
+ YIKES!!!!  
+Path: [1] Iter: [443] : ELBO (9138.516740) 
+ YIKES!!!!  
+Path: [1] Iter: [444] : ELBO (10046.617874) 
+ YIKES!!!!  
+Path: [1] Iter: [445] : ELBO (8224.474830) 
+ YIKES!!!!  
+Path: [1] Iter: [446] : ELBO (11600.733224) 
+ YIKES!!!!  
+Path: [1] Iter: [447] : ELBO (9468.414465) 
+ YIKES!!!!  
+Path: [1] Iter: [448] : ELBO (8398.055323) 
+ YIKES!!!!  
+Path: [1] Iter: [449] : ELBO (8165.998467) 
+ YIKES!!!!  
+Path: [1] Iter: [450] : ELBO (8021.026441) 
+ YIKES!!!!  
+Path: [1] Iter: [451] : ELBO (8111.006372) 
+ YIKES!!!!  
+Path: [1] Iter: [452] : ELBO (9076.312227) 
+ YIKES!!!!  
+Path: [1] Iter: [453] : ELBO (8932.516841) 
+ YIKES!!!!  
+Path: [1] Iter: [454] : ELBO (12463.041120) 
+ YIKES!!!!  
+Path: [1] Iter: [455] : ELBO (9324.204171) 
+ YIKES!!!!  
+Path: [1] Iter: [456] : ELBO (9309.802357) 
+ YIKES!!!!  
+Path: [1] Iter: [457] : ELBO (9390.203799) 
+ YIKES!!!!  
+Path: [1] Iter: [458] : ELBO (10491.139539) 
+ YIKES!!!!  
+Path: [1] Iter: [459] : ELBO (11031.447985) 
+ YIKES!!!!  
+Path: [1] Iter: [460] : ELBO (11504.259681) 
+ YIKES!!!!  
+Path: [1] Iter: [461] : ELBO (9931.869919) 
+ YIKES!!!!  
+Path: [1] Iter: [462] : ELBO (10475.037804) 
+ YIKES!!!!  
+Path: [1] Iter: [463] : ELBO (11695.443044) 
+ YIKES!!!!  
+Path: [1] Iter: [464] : ELBO (11864.063938) 
+ YIKES!!!!  
+Path: [1] Iter: [465] : ELBO (11434.087102) 
+ YIKES!!!!  
+Path: [1] Iter: [466] : ELBO (10689.579351) 
+ YIKES!!!!  
+Path: [1] Iter: [467] : ELBO (10431.124796) 
+ YIKES!!!!  
+Path: [1] Iter: [468] : ELBO (10302.580692) 
+ YIKES!!!!  
+Path: [1] Iter: [469] : ELBO (10628.291751) 
+ YIKES!!!!  
+Path: [1] Iter: [470] : ELBO (11216.305147) 
+ YIKES!!!!  
+Path: [1] Iter: [471] : ELBO (10589.377389) 
+ YIKES!!!!  
+Path: [1] Iter: [472] : ELBO (10242.606688) 
+ YIKES!!!!  
+Path: [1] Iter: [473] : ELBO (10528.621308) 
+ YIKES!!!!  
+Path: [1] Iter: [474] : ELBO (10325.443162) 
+ YIKES!!!!  
+Path: [1] Iter: [475] : ELBO (9638.972908) 
+ YIKES!!!!  
+Path: [1] Iter: [476] : ELBO (9639.196966) 
+ YIKES!!!!  
+Path: [1] Iter: [477] : ELBO (9171.173734) 
+ YIKES!!!!  
+Path: [1] Iter: [478] : ELBO (9242.511617) 
+ YIKES!!!!  
+Path: [1] Iter: [479] : ELBO (10119.932336) 
+ YIKES!!!!  
+Path: [1] Iter: [480] : ELBO (9763.969303) 
+ YIKES!!!!  
+Path: [1] Iter: [481] : ELBO (10933.821243) 
+ YIKES!!!!  
+Path: [1] Iter: [482] : ELBO (9906.488393) 
+ YIKES!!!!  
+Path: [1] Iter: [483] : ELBO (11825.614186) 
+ YIKES!!!!  
+Path: [1] Iter: [484] : ELBO (9427.281270) 
+ YIKES!!!!  
+Path: [1] Iter: [485] : ELBO (11368.644946) 
+ YIKES!!!!  
+Path: [1] Iter: [486] : ELBO (10227.444791) 
+ YIKES!!!!  
+Path: [1] Iter: [487] : ELBO (10688.448645) 
+ YIKES!!!!  
+Path: [1] Iter: [488] : ELBO (10440.215555) 
+ YIKES!!!!  
+Path: [1] Iter: [489] : ELBO (9518.509436) 
+ YIKES!!!!  
+Path: [1] Iter: [490] : ELBO (10517.161179) 
+ YIKES!!!!  
+Path: [1] Iter: [491] : ELBO (8912.883871) 
+ YIKES!!!!  
+Path: [1] Iter: [492] : ELBO (8634.756546) 
+ YIKES!!!!  
+Path: [1] Iter: [493] : ELBO (9304.923467) 
+ YIKES!!!!  
+Path: [1] Iter: [494] : ELBO (9132.259720) 
+ YIKES!!!!  
+Path: [1] Iter: [495] : ELBO (9801.672382) 
+ YIKES!!!!  
+Path: [1] Iter: [496] : ELBO (10161.312869) 
+ YIKES!!!!  
+Path: [1] Iter: [497] : ELBO (11317.046087) 
+ YIKES!!!!  
+Path: [1] Iter: [498] : ELBO (11302.749738) 
+ YIKES!!!!  
+Path: [1] Iter: [499] : ELBO (10023.057322) 
+ YIKES!!!!  
+Path: [1] Iter: [500] : ELBO (10045.042495) 
+ YIKES!!!!  
+Path: [1] Iter: [501] : ELBO (10349.101503) 
+ YIKES!!!!  
+Path: [1] Iter: [502] : ELBO (11922.167410) 
+ YIKES!!!!  
+Path: [1] Iter: [503] : ELBO (10974.795665) 
+ YIKES!!!!  
+Path: [1] Iter: [504] : ELBO (9059.678818) 
+ YIKES!!!!  
+Path: [1] Iter: [505] : ELBO (9511.896346) 
+ YIKES!!!!  
+Path: [1] Iter: [506] : ELBO (10704.403069) 
+ YIKES!!!!  
+Path: [1] Iter: [507] : ELBO (11217.296210) 
+ YIKES!!!!  
+Path: [1] Iter: [508] : ELBO (9239.235911) 
+ YIKES!!!!  
+Path: [1] Iter: [509] : ELBO (10582.414573) 
+ YIKES!!!!  
+Path: [1] Iter: [510] : ELBO (11312.237031) 
+ YIKES!!!!  
+Path: [1] Iter: [511] : ELBO (9737.720037) 
+ YIKES!!!!  
+Path: [1] Iter: [512] : ELBO (9471.842058) 
+ YIKES!!!!  
+Path: [1] Iter: [513] : ELBO (9513.788794) 
+ YIKES!!!!  
+Path: [1] Iter: [514] : ELBO (8926.671218) 
+ YIKES!!!!  
+Path: [1] Iter: [515] : ELBO (9104.349272) 
+ YIKES!!!!  
+Path: [1] Iter: [516] : ELBO (10341.118356) 
+ YIKES!!!!  
+Path: [1] Iter: [517] : ELBO (9606.659431) 
+ YIKES!!!!  
+Path: [1] Iter: [518] : ELBO (9398.912961) 
+ YIKES!!!!  
+Path: [1] Iter: [519] : ELBO (9742.162270) 
+ YIKES!!!!  
+Path: [1] Iter: [520] : ELBO (10179.462277) 
+ YIKES!!!!  
+Path: [1] Iter: [521] : ELBO (10699.302877) 
+ YIKES!!!!  
+Path: [1] Iter: [522] : ELBO (11622.166827) 
+ YIKES!!!!  
+Path: [1] Iter: [523] : ELBO (10119.052025) 
+ YIKES!!!!  
+Path: [1] Iter: [524] : ELBO (9441.977193) 
+ YIKES!!!!  
+Path: [1] Iter: [525] : ELBO (9649.833565) 
+ YIKES!!!!  
+Path: [1] Iter: [526] : ELBO (9724.354847) 
+ YIKES!!!!  
+Path: [1] Iter: [527] : ELBO (11013.487332) 
+ YIKES!!!!  
+Path: [1] Iter: [528] : ELBO (9081.415312) 
+ YIKES!!!!  
+Path: [1] Iter: [529] : ELBO (9820.929859) 
+ YIKES!!!!  
+Path: [1] Iter: [530] : ELBO (8412.706807) 
+ YIKES!!!!  
+Path: [1] Iter: [531] : ELBO (8536.894623) 
+ YIKES!!!!  
+Path: [1] Iter: [532] : ELBO (9216.596394) 
+ YIKES!!!!  
+Path: [1] Iter: [533] : ELBO (8201.914201) 
+ YIKES!!!!  
+Path: [1] Iter: [534] : ELBO (8418.251390) 
+ YIKES!!!!  
+Path: [1] Iter: [535] : ELBO (9725.872605) 
+ YIKES!!!!  
+Path: [1] Iter: [536] : ELBO (10455.711056) 
+ YIKES!!!!  
+Path: [1] Iter: [537] : ELBO (9746.554952) 
+ YIKES!!!!  
+Path: [1] Iter: [538] : ELBO (8159.974902) 
+ YIKES!!!!  
+Path: [1] Iter: [539] : ELBO (8220.004664) 
+ YIKES!!!!  
+Path: [1] Iter: [540] : ELBO (8315.139068) 
+ YIKES!!!!  
+Path: [1] Iter: [541] : ELBO (8464.864481) 
+ YIKES!!!!  
+Path: [1] Iter: [542] : ELBO (10717.172638) 
+ YIKES!!!!  
+Path: [1] Iter: [543] : ELBO (8982.237534) 
+ YIKES!!!!  
+Path: [1] Iter: [544] : ELBO (8501.398458) 
+ YIKES!!!!  
+Path: [1] Iter: [545] : ELBO (8256.133755) 
+ YIKES!!!!  
+Path: [1] Iter: [546] : ELBO (8057.221116) 
+ YIKES!!!!  
+Path: [1] Iter: [547] : ELBO (8102.649626) 
+ YIKES!!!!  
+Path: [1] Iter: [548] : ELBO (8857.365760) 
+ YIKES!!!!  
+Path: [1] Iter: [549] : ELBO (7970.549049) 
+ YIKES!!!!  
+Path: [1] Iter: [550] : ELBO (8026.819049) 
+ YIKES!!!!  
+Path: [1] Iter: [551] : ELBO (8851.493852) 
+ YIKES!!!!  
+Path: [1] Iter: [552] : ELBO (11004.694997) 
+ YIKES!!!!  
+Path: [1] Iter: [553] : ELBO (9131.695959) 
+ YIKES!!!!  
+Path: [1] Iter: [554] : ELBO (11309.534441) 
+ YIKES!!!!  
+Path: [1] Iter: [555] : ELBO (9215.248327) 
+ YIKES!!!!  
+Path: [1] Iter: [556] : ELBO (9369.942249) 
+ YIKES!!!!  
+Path: [1] Iter: [557] : ELBO (9245.560877) 
+ YIKES!!!!  
+Path: [1] Iter: [558] : ELBO (9502.074921) 
+ YIKES!!!!  
+Path: [1] Iter: [559] : ELBO (9999.215217) 
+ YIKES!!!!  
+Path: [1] Iter: [560] : ELBO (11322.685695) 
+ YIKES!!!!  
+Path: [1] Iter: [561] : ELBO (8882.785478) 
+ YIKES!!!!  
+Path: [1] Iter: [562] : ELBO (10613.518415) 
+ YIKES!!!!  
+Path: [1] Iter: [563] : ELBO (10980.978745) 
+ YIKES!!!!  
+Path: [1] Iter: [564] : ELBO (9876.233047) 
+ YIKES!!!!  
+Path: [1] Iter: [565] : ELBO (10086.995242) 
+ YIKES!!!!  
+Path: [1] Iter: [566] : ELBO (10565.146220) 
+ YIKES!!!!  
+Path: [1] Iter: [567] : ELBO (9585.645889) 
+ YIKES!!!!  
+Path: [1] Iter: [568] : ELBO (9958.113618) 
+ YIKES!!!!  
+Path: [1] Iter: [569] : ELBO (10498.801417) 
+ YIKES!!!!  
+Path: [1] Iter: [570] : ELBO (12240.068525) 
+ YIKES!!!!  
+Path: [1] Iter: [571] : ELBO (10747.475448) 
+ YIKES!!!!  
+Path: [1] Iter: [572] : ELBO (11445.294458) 
+ YIKES!!!!  
+Path: [1] Iter: [573] : ELBO (10440.705489) 
+ YIKES!!!!  
+Path: [1] Iter: [574] : ELBO (11495.336296) 
+ YIKES!!!!  
+Path: [1] Iter: [575] : ELBO (10860.990795) 
+ YIKES!!!!  
+Path: [1] Iter: [576] : ELBO (10110.389843) 
+ YIKES!!!!  
+Path: [1] Iter: [577] : ELBO (10606.843596) 
+ YIKES!!!!  
+Path: [1] Iter: [578] : ELBO (13346.090808) 
+ YIKES!!!!  
+Path: [1] Iter: [579] : ELBO (13950.054561) 
+ YIKES!!!!  
+Path: [1] Iter: [580] : ELBO (13996.960376) 
+ YIKES!!!!  
+Path: [1] Iter: [581] : ELBO (14183.130512) 
+ YIKES!!!!  
+Path: [1] Iter: [582] : ELBO (14391.667333) 
+ YIKES!!!!  
+Path: [1] Iter: [583] : ELBO (19647.758285) 
+ YIKES!!!!  
+Path: [1] Iter: [584] : ELBO (14535.836413) 
+ YIKES!!!!  
+Path: [1] Iter: [585] : ELBO (14532.627711) 
+ YIKES!!!!  
+Path: [1] Iter: [586] : ELBO (14577.551849) 
+ YIKES!!!!  
+Path: [1] Iter: [587] : ELBO (14650.499250) 
+ YIKES!!!!  
+Path: [1] Iter: [588] : ELBO (14704.215312) 
+Chain 1 Exception: normal_rng: Scale parameter is 0, but must be positive finite! (in '/tmp/RtmpNh1zG9/model-f947945282f6e.stan', line 178, column 6 to column 62)
+Warning: Fitting finished unexpectedly! Use the $output() method for more information.
+
