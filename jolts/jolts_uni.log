@@ -1,0 +1,22 @@
+This is cmdstanr version 0.4.0.9001
+- CmdStanR documentation and vignettes: mc-stan.org/cmdstanr
+- CmdStan path: /work/pathfinder/cmdstan
+- CmdStan version: 2.28.1
+Path: [1] Initial log joint probability = 220494668.472285 
+Path: [1]     Iter      log prob        ||dx||      ||grad||       alpha      alpha0  # evals  Notes  
+Path: [1]        1   2.20495e+08             0   7.66402e+06       0.001       0.001       12    
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[1] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 213, column 5 to column 99) 
+Exception: gamma_lpdf: Inverse scale parameter[4] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 217, column 5 to column 97) 
+Exception: gamma_lpdf: Inverse scale parameter[4] is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 217, column 5 to column 97) 
+Exception: gamma_lpdf: Inverse scale parameter is 0, but must be positive finite! (in '/tmp/Rtmp4YxUCe/model-1489c17319054e.stan', line 221, column 5 to column 108) 
+Chain 1 jolts_uni: stan/lib/stan_math/lib/eigen_3.3.9/Eigen/src/Core/Block.h:120: Eigen::Block<XprType, BlockRows, BlockCols, InnerPanel>::Block(XprType&, Eigen::Index) [with XprType = Eigen::Matrix<double, -1, -1>; int BlockRows = -1; int BlockCols = 1; bool InnerPanel = true; Eigen::Index = long int]: Assertion `(i>=0) && ( ((BlockRows==1) && (BlockCols==XprType::ColsAtCompileTime) && i<xpr.rows()) ||((BlockRows==XprType::RowsAtCompileTime) && (BlockCols==1) && i<xpr.cols()))' failed.
+Warning: Fitting finished unexpectedly! Use the $output() method for more information.
+
+[1] "Collecting model output... Please wait..."

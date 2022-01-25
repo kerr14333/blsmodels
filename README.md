@@ -1,5 +1,8 @@
 # BLS Stan Models
 
-This repo consists of simulated data that we wish to apply our models to
+This repo consists of simulated data that we wish to apply our stan  models to. The jolts, samgen3 and reportlevel models and R programs were written by Julie Gershunskaya and Terrance Savitsky.
 
-* **samgen3_toysim** - BLS samgen3 (Small Area Model generation 3) model with simulated data
+* **eight_schools** - Eight Schools example centered/non-centered parameterization. I include it because the centered parameterization had what looks like similar behavior to the samgen3 model. Maybe there is a connection? Maybe I am missing something? 
+* **jolts** - JOLTS (Job Openings and Labor Turnover Survey - The survey you have been seeing in the news about the large number of people quitting their jobs) - Programs and simulated data in directory. 
+* **reportlevel** - Our MRP model for CES Small Area Modelling using report level (microdata or sample unit) level data. Contains programs and simulated data.
+* **samgen3_toysim** - BLS samgen3 (Small Area Model Generation 3) model with simulated data.

@@ -52,5 +52,12 @@ rsconnect/
 *.swp
 *.swo
 
+#these are some temporary logs that I didnt want in the repo
+*.no
+
 #remove the executable created by CmdStan
 samgen3_brate
+y_countimp_ispbase_010522
+jolts_uni
+eight_schools_centered
+eight_schools_noncentered
