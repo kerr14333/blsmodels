@@ -10,7 +10,8 @@
   dt = read_json(path="samgen3_toysim.json",simplifyVector=T)
 
   ## Set cmdstan path (version with pathfinder)
-  cmdstanr::set_cmdstan_path("/work/pathfinder/cmdstan")
+  #cmdstanr::set_cmdstan_path("/work/pathfinder_testing/cmdstan")
+  cmdstanr::set_cmdstan_path("/work/pathfinder_testing/cmdstan")
 
 
   #### Start transforming data ####
@@ -62,9 +63,11 @@
 		     )
   
   ## compile model
-  mod1     <- cmdstanr::cmdstan_model(stan_file )
+  mod1     <- cmdstanr::cmdstan_model(stan_file ) 
 
   #Run pathfinder
   fit1 = mod1$pathfinder(algorithm = "multi", data = stan_data,
 			   refresh = 1, num_threads = 12, num_paths = 12, psis_draws = 2000)
-  
+ 
+
+  fit1$summary()

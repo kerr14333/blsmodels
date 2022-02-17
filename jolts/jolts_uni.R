@@ -8,6 +8,8 @@
 library(cmdstanr)
 library(jsonlite)
 
+set_cmdstan_path("/work/pathfinder_testing/cmdstan")
+
 ### Compile model 
 mod         <- cmdstanr::cmdstan_model("stan/jolts_uni.stan")
 

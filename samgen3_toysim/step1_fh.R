@@ -5,13 +5,13 @@ library(cmdstanr)
 library(jsonlite)
 
 #set cmdstan path
-cmdstanr::set_cmdstan_path("/work/pathfinder/cmdstan")
+set_cmdstan_path("/work/pathfinder_testing/cmdstan")
 
 #read in data
 dt = read_json(path="samgen3_toysim.json",simplifyVector=T)
 
 ### compile stan script
-mod1     <- cmdstanr::cmdstan_model("fh_st.stan")
+mod1     <- cmdstanr::cmdstan_model("fh.stan", cpp_options=list(stan_threads=TRUE))
 
 ### standardize data where necessary
 
@@ -57,20 +57,6 @@ mod1     <- cmdstanr::cmdstan_model("fh_st.stan")
 			   refresh = 1, num_threads = 12, num_paths = 12, psis_draws = 2000)
 
 
-
-  ##############################
-   ADVI<-function(){
-   fit2 = mod1$variational( data = stan_data,
-           	           #include = TRUE,
-	                   eta=0.1,
-	                   adapt_engaged=FALSE,
-	                   elbo_samples=1000,
-	                   output_samples=2000,
-	                   #init_r = 1.5,
-	                   tol_rel_obj = 0.0001,
-	                   iter=100000
-	                 )
-   } #### end ADVI call
-  ##############################
+  fit1$summary()
 
 

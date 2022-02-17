@@ -1,4 +1,3 @@
-
 ####################
 ## load libraries
 ####################
@@ -6,13 +5,13 @@ library(cmdstanr)
 library(jsonlite)
 
 #set cmdstan path
-cmdstanr::set_cmdstan_path("/work/pathfinder_testing/cmdstan")
+set_cmdstan_path("/work/pathfinder_testing/cmdstan")
 
 #read in data
 dt = read_json(path="samgen3_toysim.json",simplifyVector=T)
 
 ### compile stan script
-mod1     <- cmdstanr::cmdstan_model("fhs.stan")
+mod1     <- cmdstanr::cmdstan_model("fhs_st.stan")
 
 ### standardize data where necessary
 
@@ -56,7 +55,5 @@ mod1     <- cmdstanr::cmdstan_model("fhs.stan")
 
   fit1 = mod1$pathfinder(algorithm = "multi", data = stan_data,
 			   refresh = 1, num_threads = 12, num_paths = 12, psis_draws = 2000)
-
-
 
   fit1$summary()
