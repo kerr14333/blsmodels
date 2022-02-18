@@ -12,7 +12,7 @@ mod1     <- cmdstanr::cmdstan_model( "stan/eight_schools_noncentered.stan" )
 
 fit1 = mod1$pathfinder(algorithm = "multi", data = stan_data,
                        refresh = 1, num_threads = 20, num_paths = 20, 
-                       psis_draws = 8000, num_draws=8000, init=12)
+                       psis_draws = 2000, init=2)
 
 fit1_samp = mod1$sample( data = stan_data,chains=3, adapt_delta = .99 )
 
@@ -21,7 +21,7 @@ mod2     <- cmdstanr::cmdstan_model( "stan/eight_schools_centered.stan" )
 
 fit2 = mod2$pathfinder(algorithm = "multi", data = stan_data,
                        refresh = 1, num_threads = 20, num_paths = 20, 
-                       psis_draws = 2000, num_draws=8000, init=12)
+                       psis_draws = 2000, num_draws=8000, init=2)
 
 fit2_samp = mod2$sample( data = stan_data,chains=3, adapt_delta = .99)
 cat("\n\n Non-Centered Pathfinder Summary \n\n" )
