@@ -1,0 +1,11 @@
+This is cmdstanr version 0.4.0.9001
+- CmdStanR documentation and vignettes: mc-stan.org/cmdstanr
+- CmdStan path: /work/pathfinder_testing/cmdstan
+- CmdStan version: 2.29.0
+CmdStan path set to: /work/laplace_testing/cmdstan
+Running MCMC with 1 chain...
+
+Warning: Chain 1 finished unexpectedly!
+
+Warning message:
+No chains finished successfully. Unable to retrieve the fit. 
